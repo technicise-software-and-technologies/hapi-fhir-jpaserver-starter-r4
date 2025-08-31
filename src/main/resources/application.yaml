@@ -2,7 +2,7 @@
 server:
   #  servlet:
   #    context-path: /example/path
-  port: 8080
+  port: 8089
   tomcat:
     # allow | as a separator in the URL
     relaxed-query-chars: "|"
@@ -44,8 +44,8 @@ spring:
     fail-on-missing-locations: false
   datasource:
     url: jdbc:postgresql://localhost:5432/without_auth_fhir_db_r4
-    username: user
-    password: pwd
+    username: technicise
+    password: technicise2018
     driverClassName: org.postgresql.Driver
 
     # database connection pool size
@@ -60,24 +60,16 @@ spring:
       #If using H2, then supply the value of ca.uhn.fhir.jpa.model.dialect.HapiFhirH2Dialect
       #If using postgres, then supply the value of ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect
       hibernate.dialect: ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect
-  #      hibernate.hbm2ddl.auto: update
-  #      hibernate.jdbc.batch_size: 20
-  #      hibernate.cache.use_query_cache: false
-  #      hibernate.cache.use_second_level_cache: false
-  #      hibernate.cache.use_structured_entries: false
-  #      hibernate.cache.use_minimal_puts: false
 
-  ###    These settings will enable fulltext search with lucene or elastic
       hibernate.search.enabled: false
-  ### lucene parameters
-#      hibernate.search.backend.type: lucene
-#      hibernate.search.backend.analysis.configurer: ca.uhn.fhir.jpa.search.HapiHSearchAnalysisConfigurers$HapiLuceneAnalysisConfigurer
-#      hibernate.search.backend.directory.type: local-filesystem
-#      hibernate.search.backend.directory.root: target/lucenefiles
-#      hibernate.search.backend.lucene_version: lucene_current
-  ### elastic parameters ===> see also elasticsearch section below <===
-#      hibernate.search.backend.type: elasticsearch
-#      hibernate.search.backend.analysis.configurer: ca.uhn.fhir.jpa.search.HapiHSearchAnalysisConfigurers$HapiElasticAnalysisConfigurer
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://keycloak.technicise.eu/realms/medicalWisdomARRViewer
+          jwk-set-uri: https://keycloak.technicise.eu/realms/medicalWisdomARRViewer/protocol/openid-connect/certs
+
 hapi:
   fhir:
     ### This flag when enabled to true, will avail evaluate measure operations from CR Module.
