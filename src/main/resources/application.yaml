@@ -45,7 +45,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/without_auth_fhir_db_r4
     username: user
-    password: password
+    password: pwd
     driverClassName: org.postgresql.Driver
 
     # database connection pool size
