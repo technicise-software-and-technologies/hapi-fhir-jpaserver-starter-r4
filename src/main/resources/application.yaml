@@ -43,10 +43,11 @@ spring:
     baselineOnMigrate: true
     fail-on-missing-locations: false
   datasource:
-    url: jdbc:postgresql://localhost:5432/without_auth_fhir_db_r4
-    username: user
-    password: pwd
-    driverClassName: org.postgresql.Driver
+    url: jdbc:h2:mem:test_mem
+    username: sa
+    password: null
+    driverClassName: org.h2.Driver
+    max-active: 15
 
     # database connection pool size
     hikari:
@@ -56,10 +57,10 @@ spring:
       hibernate.format_sql: false
       hibernate.show_sql: false
 
-      #Hibernate dialect is automatically detected except Postgres and H2.
+      #Hibernate dialect is automatically detected except Postgres and H2. ca.uhn.fhir.jpa.model.dialect.HapiFhirH2Dialect
       #If using H2, then supply the value of ca.uhn.fhir.jpa.model.dialect.HapiFhirH2Dialect
       #If using postgres, then supply the value of ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect
-      hibernate.dialect: ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect
+      hibernate.dialect: ca.uhn.fhir.jpa.model.dialect.HapiFhirH2Dialect
   #      hibernate.hbm2ddl.auto: update
   #      hibernate.jdbc.batch_size: 20
   #      hibernate.cache.use_query_cache: false
