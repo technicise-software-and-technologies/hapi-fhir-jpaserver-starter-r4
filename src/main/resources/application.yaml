@@ -50,7 +50,7 @@ spring:
   #   driverClassName: org.h2.Driver
   #   max-active: 15
   datasource:
-    url: jdbc:postgresql://localhost:5432/without_auth_fhir_db
+    url: jdbc:postgresql://localhost:5432/without_auth_fhir_db_r4
     username: technicise
     password: technicise2018
     driverClassName: org.postgresql.Driver
