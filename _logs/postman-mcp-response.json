@@ -1,0 +1,26 @@
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "protocolVersion": "2024-11-05",
+        "capabilities": {
+            "completions": {},
+            "logging": {},
+            "prompts": {
+                "listChanged": true
+            },
+            "resources": {
+                "subscribe": false,
+                "listChanged": true
+            },
+            "tools": {
+                "listChanged": true
+            }
+        },
+        "serverInfo": {
+            "name": "FHIR MCP Server",
+            "version": "1.0.0"
+        },
+        "instructions": "This server provides access to a FHIR RESTful API. You can use it to query FHIR resources, perform operations, and retrieve data in a structured format."
+    }
+}
