@@ -1,0 +1,28 @@
+[WARNING]
+[WARNING] The project ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ------------< ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter >------------
+[INFO] Building HAPI FHIR JPA Server - Starter Project 8.4.0-2
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:3.3.11:run (default-cli) > test-compile @ hapi-fhir-jpaserver-starter >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.5.0:enforce (enforce-maven) @ hapi-fhir-jpaserver-starter ---
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.286 s
+[INFO] Finished at: 2026-07-28T17:18:16+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce (enforce-maven) on project hapi-fhir-jpaserver-starter: 
+[ERROR] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:
+[ERROR] Detected Maven Version: 3.6.3 is not in the allowed range [3.9.0,).
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+PS C:\Users\43706\FHIR Training\hapi-fhir-jpaserver-starter-r4>
