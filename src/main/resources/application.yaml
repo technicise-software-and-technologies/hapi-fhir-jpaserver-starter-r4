@@ -44,8 +44,8 @@ spring:
     fail-on-missing-locations: false
   datasource:
     url: jdbc:postgresql://localhost:5432/without_auth_fhir_db_r4
-    username: user
-    password: pwd
+    username: technicise
+    password: technicise2018
     driverClassName: org.postgresql.Driver
 
     # database connection pool size
@@ -140,7 +140,7 @@ hapi:
     ### This is the FHIR version. Choose between, DSTU2, DSTU3, R4 or R5
     fhir_version: R4
     ### Flag is false by default. This flag enables runtime installation of IG's.
-    ig_runtime_upload_enabled: false
+    ig_runtime_upload_enabled: true
     ### This flag when enabled to true, will avail evaluate measure operations from CR Module.
 
     ### enable to use the ApacheProxyAddressStrategy which uses X-Forwarded-* headers
@@ -161,13 +161,18 @@ hapi:
     ### Flag is true by default. This flag filters resources during package installation, allowing only those resources with a valid status (e.g. active) to be installed.
     #    validate_resource_status_for_package_upload: false 
     #    install_transitive_ig_dependencies: true
-    #implementationguides:
-    ###    example from registry (packages.fhir.org)
-    #  swiss:
-    #    name: swiss.mednet.fhir
-    #    version: 0.8.0
-    #    reloadExisting: false
-    #    installMode: STORE_AND_INSTALL
+    implementationguides:
+    ##    example from registry (packages.fhir.org)
+     swiss:
+       name: swiss.mednet.fhir
+       version: 0.8.0
+       reloadExisting: false
+       installMode: STORE_AND_INSTALL
+     uscore:
+       name: hl7.fhir.us.core
+       version: 6.1.0
+       reloadExisting: false
+       installMode: STORE_AND_INSTALL
     #      example not from registry
     #  ips_1_0_0:
     #    packageUrl: https://costateixeira.github.io/smart-ips-pilgrimage-fulltest/package.tgz
@@ -344,9 +349,9 @@ hapi:
         server_address: "http://hapi.fhir.org/baseR4"
         refuse_to_fetch_third_party_urls: false
         fhir_version: R4
-    #    validation:
-    #      requests_enabled: true
-    #      responses_enabled: true
+    validation:
+      requests_enabled: true
+      responses_enabled: false
     #    binary_storage_enabled: true
     inline_resource_storage_below_size: 4000
 #    bulk_export_enabled: true

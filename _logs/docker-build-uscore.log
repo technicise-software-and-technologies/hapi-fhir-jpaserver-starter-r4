@@ -1,0 +1,1943 @@
+﻿docker : time="2026-08-06T11:31:03+05:30" level=warning 
+msg="C:\\githubrepos\\sayan801\\hapi-fhir-jpaserver-starter\\docker-compose.yml: the attribute `version` is obsolete, 
+it will be ignored, please remove it to avoid potential confusion"
+At line:1 char:358
++ ... api-fhir-jpaserver-starter; docker compose up -d --build 2>&1 | Out-F ...
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (time="2026-08-0...tial confusion":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+#1 [internal] load local bake definitions
+#1 reading from stdin 678B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 2.42kB 0.0s done
+#2 DONE 0.0s
+
+#3 [auth] library/maven:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [internal] load metadata for docker.io/library/maven:3.9.9-eclipse-temurin-17
+#4 ...
+
+#5 [internal] load metadata for gcr.io/distroless/java17-debian12:nonroot
+#5 DONE 1.2s
+
+#4 [internal] load metadata for docker.io/library/maven:3.9.9-eclipse-temurin-17
+#4 DONE 2.8s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 254B done
+#6 DONE 0.0s
+
+#7 [default 1/4] FROM gcr.io/distroless/java17-debian12:nonroot@sha256:06484c2a9dcc9070aeafbc0fe752cb9f73bc0cea5c311f6a516e9010061998ad
+#7 resolve gcr.io/distroless/java17-debian12:nonroot@sha256:06484c2a9dcc9070aeafbc0fe752cb9f73bc0cea5c311f6a516e9010061998ad 0.0s done
+#7 DONE 0.0s
+
+#8 [build-hapi 1/8] FROM docker.io/library/maven:3.9.9-eclipse-temurin-17@sha256:f58d59b6273e785ac0a4477f6e9b5ba1d7731c75b906c0f7b34076f1851318cc
+#8 resolve docker.io/library/maven:3.9.9-eclipse-temurin-17@sha256:f58d59b6273e785ac0a4477f6e9b5ba1d7731c75b906c0f7b34076f1851318cc 0.0s done
+#8 ...
+
+#9 [internal] load build context
+#9 transferring context: 13.12kB 0.0s done
+#9 DONE 0.0s
+
+#8 [build-hapi 1/8] FROM docker.io/library/maven:3.9.9-eclipse-temurin-17@sha256:f58d59b6273e785ac0a4477f6e9b5ba1d7731c75b906c0f7b34076f1851318cc
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 0B / 144.65MB 0.2s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 7.34MB / 144.65MB 5.1s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 14.68MB / 144.65MB 7.2s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 16.78MB / 144.65MB 12.3s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 19.92MB / 144.65MB 17.4s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 27.26MB / 144.65MB 19.3s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 35.65MB / 144.65MB 20.8s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 42.99MB / 144.65MB 22.5s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 50.33MB / 144.65MB 23.8s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 57.67MB / 144.65MB 25.2s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 65.01MB / 144.65MB 26.5s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 72.35MB / 144.65MB 27.7s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 80.74MB / 144.65MB 29.2s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 88.08MB / 144.65MB 30.7s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 95.42MB / 144.65MB 31.9s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 102.76MB / 144.65MB 33.7s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 111.15MB / 144.65MB 35.1s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 119.54MB / 144.65MB 36.7s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 126.88MB / 144.65MB 37.9s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 134.22MB / 144.65MB 39.4s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 141.56MB / 144.65MB 40.3s
+#8 sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 144.65MB / 144.65MB 41.2s done
+#8 extracting sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028
+#8 extracting sha256:b61b7669ae30b45ca88696ba9b505614969b7b22fcfbc0131aafe11a21cf6028 3.8s done
+#8 DONE 45.0s
+
+#8 [build-hapi 1/8] FROM docker.io/library/maven:3.9.9-eclipse-temurin-17@sha256:f58d59b6273e785ac0a4477f6e9b5ba1d7731c75b906c0f7b34076f1851318cc
+#8 extracting sha256:c70eff9bffbbfe89f4317fcbc629c8b55f368a6376f739f347d783caf8d2fe79 0.0s done
+#8 extracting sha256:d9815e77b54f33dbcd213d596eeaad209e5255afa9c22666ba991c8c1daf1211 0.0s done
+#8 extracting sha256:ddcf5fb2d06ceba3ca7015c4e844c4ff884ef85f4b22be6bde29e1c3a9b5be67
+#8 extracting sha256:ddcf5fb2d06ceba3ca7015c4e844c4ff884ef85f4b22be6bde29e1c3a9b5be67 1.7s done
+#8 DONE 46.8s
+
+#8 [build-hapi 1/8] FROM docker.io/library/maven:3.9.9-eclipse-temurin-17@sha256:f58d59b6273e785ac0a4477f6e9b5ba1d7731c75b906c0f7b34076f1851318cc
+#8 extracting sha256:e778c13590fd085adef1b77b7188d40026e1c681d1b51f982519a3cc79faa4c5
+#8 extracting sha256:e778c13590fd085adef1b77b7188d40026e1c681d1b51f982519a3cc79faa4c5 0.7s done
+#8 extracting sha256:3fa0bcda0f1da02f4ec2a7978b9d08b534ab12742726582ba3908e70f0329ffc
+#8 extracting sha256:3fa0bcda0f1da02f4ec2a7978b9d08b534ab12742726582ba3908e70f0329ffc 0.0s done
+#8 extracting sha256:2d56ad71dc3b91726c3f2ceaa3a5917bddafd133435af8f5b444a4f3e690492b 0.0s done
+#8 extracting sha256:955067be877db9298a5676257b42553507c2cf1129b9e626033e2d48c33577e7 0.0s done
+#8 DONE 47.6s
+
+#10 [build-hapi 2/8] WORKDIR /tmp/hapi-fhir-jpaserver-starter
+#10 DONE 0.9s
+
+#11 [build-hapi 3/8] RUN curl -LSsO https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/download/v2.13.1/opentelemetry-javaagent.jar
+#11 DONE 19.1s
+
+#12 [build-hapi 4/8] COPY pom.xml .
+#12 DONE 0.5s
+
+#13 [build-hapi 5/8] COPY server.xml .
+#13 DONE 0.1s
+
+#14 [build-hapi 6/8] RUN mvn -ntp dependency:go-offline
+#14 3.623 [INFO] Scanning for projects...
+#14 10.76 [WARNING] 
+#14 10.76 [WARNING] Some problems were encountered while building the effective model for ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2
+#14 10.76 [WARNING] 'version' contains an expression but should be a constant. @ ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:${project.parent.version}-${hapi.fhir.jpa.server.starter.revision}, /tmp/hapi-fhir-jpaserver-starter/pom.xml, line 27, column 14
+#14 10.76 [WARNING] 
+#14 10.76 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+#14 10.76 [WARNING] 
+#14 10.76 [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+#14 10.76 [WARNING] 
+#14 10.77 [WARNING] The project ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+#14 19.09 [WARNING] The POM for ca.uhn.hapi.fhir:hapi-tinder-plugin:jar:8.4.0-2 is missing, no dependency information available
+#14 19.55 [WARNING] Failed to retrieve plugin descriptor for ca.uhn.hapi.fhir:hapi-tinder-plugin:8.4.0-2: Plugin ca.uhn.hapi.fhir:hapi-tinder-plugin:8.4.0-2 or one of its dependencies could not be resolved:
+#14 19.55 	Could not find artifact ca.uhn.hapi.fhir:hapi-tinder-plugin:jar:8.4.0-2 in central (https://repo.maven.apache.org/maven2)
+#14 19.55 
+#14 21.00 [INFO] 
+#14 21.00 [INFO] ------------< ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter >------------
+#14 21.00 [INFO] Building HAPI FHIR JPA Server - Starter Project 8.4.0-2
+#14 21.00 [INFO]   from pom.xml
+#14 21.00 [INFO] --------------------------------[ war ]---------------------------------
+#14 21.01 [WARNING] The POM for ca.uhn.hapi.fhir:hapi-tinder-plugin:jar:8.4.0-2 is missing, no dependency information available
+#14 21.01 [WARNING] Failed to retrieve plugin descriptor for ca.uhn.hapi.fhir:hapi-tinder-plugin:8.4.0-2: Plugin ca.uhn.hapi.fhir:hapi-tinder-plugin:8.4.0-2 or one of its dependencies could not be resolved:
+#14 21.01 	ca.uhn.hapi.fhir:hapi-tinder-plugin:jar:8.4.0-2 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+#14 21.01 
+#14 21.02 [INFO] 
+#14 21.02 [INFO] --- dependency:3.6.0:go-offline (default-cli) @ hapi-fhir-jpaserver-starter ---
+#14 540.7 [INFO] Resolved plugin: jetty-servlet-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: jcip-annotations-1.0.jar
+#14 540.7 [INFO] Resolved plugin: guava-31.0.1-jre.jar
+#14 540.7 [INFO] Resolved plugin: spring-context-6.1.19.jar
+#14 540.7 [INFO] Resolved plugin: checkstyle-9.3.jar
+#14 540.7 [INFO] Resolved plugin: mksapi-jar-4.10.9049.jar
+#14 540.7 [INFO] Resolved plugin: doxia-site-model-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: doxia-skin-model-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: spring-boot-loader-tools-3.3.11.jar
+#14 540.7 [INFO] Resolved plugin: jaxb-api-2.3.1.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-twiki-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: jdependency-2.8.0.jar
+#14 540.7 [INFO] Resolved plugin: velocity-tools-2.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-filtering-3.3.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-gfm-tasklist-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: commons-codec-1.17.0.jar
+#14 540.7 [INFO] Resolved plugin: j2objc-annotations-1.3.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-admonition-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: jna-5.13.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-core-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-footnotes-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-gfm-strikethrough-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-repository-metadata-3.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-media-tags-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-xhtml-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-container-default-1.0-alpha-9.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-util-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-anchorlink-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: aether-api-1.7.jar
+#14 540.7 [INFO] Resolved plugin: asm-9.6.jar
+#14 540.7 [INFO] Resolved plugin: aether-api-1.0.0.v20140518.jar
+#14 540.7 [INFO] Resolved plugin: javax.activation-api-1.2.0.jar
+#14 540.7 [INFO] Resolved plugin: autolink-0.6.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-filtering-3.3.1.jar
+#14 540.7 [INFO] Resolved plugin: sisu-guice-2.1.7-noaop.jar
+#14 540.7 [INFO] Resolved plugin: maven-archiver-3.6.2.jar
+#14 540.7 [INFO] Resolved plugin: spring-boot-maven-plugin-3.3.11.jar
+#14 540.7 [INFO] Resolved plugin: doxia-skin-model-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: dom4j-1.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-compiler-api-2.15.0.jar
+#14 540.7 [INFO] Resolved plugin: bsh-2.0b6.jar
+#14 540.7 [INFO] Resolved plugin: commons-io-2.16.1.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-youtrack-converter-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-aether-provider-3.0.jar
+#14 540.7 [INFO] Resolved plugin: micrometer-commons-1.12.12.jar
+#14 540.7 [INFO] Resolved plugin: tomlj-1.0.0.jar
+#14 540.7 [INFO] Resolved plugin: httpclient-4.5.13.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-toc-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: plexus-interpolation-1.14.jar
+#14 540.7 [INFO] Resolved plugin: qdox-2.0.3.jar
+#14 540.7 [INFO] Resolved plugin: maven-resolver-util-1.9.18.jar
+#14 540.7 [INFO] Resolved plugin: maven-checkstyle-plugin-3.6.0.jar
+#14 540.7 [INFO] Resolved plugin: spring-beans-6.1.19.jar
+#14 540.7 [INFO] Resolved plugin: duplicate-finder-maven-plugin-2.0.1.jar
+#14 540.7 [INFO] Resolved plugin: httpclient5-5.3.1.jar
+#14 540.7 [INFO] Resolved plugin: jetty-http-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: doxia-site-renderer-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-classworlds-2.2.3.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-jira-converter-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-reporting-api-3.1.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-component-annotations-2.2.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-plugin-api-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: commons-beanutils-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: sisu-guice-3.2.3-no_aop.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-synergy-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-attributes-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: doxia-core-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-lang3-3.8.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-aether-provider-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: aether-util-1.0.0.v20140518.jar
+#14 540.7 [INFO] Resolved plugin: jetty-security-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: maven-archiver-3.6.0.jar
+#14 540.7 [INFO] Resolved plugin: surefire-shared-utils-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-compress-1.23.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-enforcer-plugin-3.5.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-velocity-2.2.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-common-artifact-filters-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-plugin-registry-2.2.1.jar
+#14 540.7 [INFO] Resolved plugin: aether-impl-1.7.jar
+#14 540.7 [INFO] Resolved plugin: maven-compiler-plugin-3.13.0.jar
+#14 540.7 [INFO] Resolved plugin: javassist-3.28.0-GA.jar
+#14 540.7 [INFO] Resolved plugin: picocli-4.6.2.jar
+#14 540.7 [INFO] Resolved plugin: org.eclipse.sisu.plexus-0.3.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-failsafe-plugin-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-lang3-3.17.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-providers-standard-1.9.4.pom
+#14 540.7 [INFO] Resolved plugin: spring-core-6.1.19.jar
+#14 540.7 [INFO] Resolved plugin: listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+#14 540.7 [INFO] Resolved plugin: doxia-core-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-ins-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: zstd-jni-1.5.5-2.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-bazaar-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: maven-artifact-3.0.jar
+#14 540.7 [INFO] Resolved plugin: google-collections-1.0.jar
+#14 540.7 [INFO] Resolved plugin: surefire-extensions-spi-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-emoji-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-project-2.2.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-resolver-api-1.4.1.jar
+#14 540.7 [INFO] Resolved plugin: doxia-integration-tools-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-xhtml5-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-compiler-manager-2.15.0.jar
+#14 540.7 [INFO] Resolved plugin: httpcore5-5.2.4.jar
+#14 540.7 [INFO] Resolved plugin: plexus-interactivity-api-1.0-alpha-6.jar
+#14 540.7 [INFO] Resolved plugin: maven-surefire-common-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-component-annotations-1.5.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-repository-metadata-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-jekyll-front-matter-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: doxia-decoration-model-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-component-annotations-1.6.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-all-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-shared-incremental-1.1.jar
+#14 540.7 [INFO] Resolved plugin: failureaccess-1.0.1.jar
+#14 540.7 [INFO] Resolved plugin: commons-compress-1.26.1.jar
+#14 540.7 [INFO] Resolved plugin: error_prone_annotations-2.7.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-vss-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: jetty-webapp-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: plexus-io-3.2.0.jar
+#14 540.7 [INFO] Resolved plugin: xbean-reflect-3.7.jar
+#14 540.7 [INFO] Resolved plugin: maven-reporting-exec-1.6.0.jar
+#14 540.7 [INFO] Resolved plugin: doxia-sink-api-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-xml-3.0.0.jar
+#14 540.7 [INFO] Resolved plugin: jetty-xml-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-jazz-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: plexus-velocity-1.2.jar
+#14 540.7 [INFO] Resolved plugin: jdom-1.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-container-default-2.1.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-codec-1.11.jar
+#14 540.7 [INFO] Resolved plugin: snappy-0.4.jar
+#14 540.7 [INFO] Resolved plugin: jsr305-3.0.2.jar
+#14 540.7 [INFO] Resolved plugin: surefire-api-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-build-api-0.0.7.jar
+#14 540.7 [INFO] Resolved plugin: asm-9.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-dependency-tree-3.2.1.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-fml-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: commons-digester-1.8.jar
+#14 540.7 [INFO] Resolved plugin: jetty-server-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: maven-shared-utils-3.4.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-manager-plexus-1.8.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-abbreviation-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-archiver-3.5.2.jar
+#14 540.7 [INFO] Resolved plugin: httpcore5-h2-5.2.4.jar
+#14 540.7 [INFO] Resolved plugin: enforcer-rules-3.5.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-publish-plugin-3.0.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-reporting-impl-4.0.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-perforce-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: zstd-jni-1.5.5-11.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-definition-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-gitexe-1.9.5.jar
+#14 540.7 [INFO] Resolved plugin: ganymed-ssh2-build210.jar
+#14 540.7 [INFO] Resolved plugin: doxia-logging-api-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: jackson-mapper-asl-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: surefire-logger-api-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-xml-3.0.1.jar
+#14 540.7 [INFO] Resolved plugin: spotbugs-annotations-4.7.3.jar
+#14 540.7 [INFO] Resolved plugin: maven-install-plugin-3.1.3.jar
+#14 540.7 [INFO] Resolved plugin: commons-cli-1.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-svnexe-1.9.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-shared-utils-3.2.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-yaml-front-matter-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-invoker-2.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-shade-plugin-3.5.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-site-plugin-3.12.1.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-3.3.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-deploy-plugin-3.1.2.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-superscript-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: commons-collections-3.2.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-cvs-commons-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-markdown-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-reporting-api-4.0.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-xwiki-macros-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: commons-io-2.17.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-compress-1.20.jar
+#14 540.7 [INFO] Resolved plugin: plexus-io-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-resolver-api-1.9.18.jar
+#14 540.7 [INFO] Resolved plugin: velocity-1.7.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-3.5.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-antrun-plugin-3.1.0.jar
+#14 540.7 [INFO] Resolved plugin: wagon-provider-api-1.0-beta-6.jar
+#14 540.7 [INFO] Resolved plugin: velocity-tools-generic-3.1.jar
+#14 540.7 [INFO] Resolved plugin: aopalliance-1.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-model-3.0.jar
+#14 540.7 [INFO] Resolved plugin: aether-spi-1.0.0.v20140518.jar
+#14 540.7 [INFO] Resolved plugin: plexus-interpolation-1.26.jar
+#14 540.7 [INFO] Resolved plugin: maven-artifact-manager-2.2.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-resources-plugin-3.3.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-settings-builder-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: httpcore-4.4.14.jar
+#14 540.7 [INFO] Resolved plugin: commons-lang3-3.12.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-model-builder-3.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-artifact-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: plexus-compiler-javac-2.15.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-enumerated-reference-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: plexus-component-annotations-2.1.1.jar
+#14 540.7 [INFO] Resolved plugin: json-simple-3.0.2.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-xdoc-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-3.0.24.jar
+#14 540.7 [INFO] Resolved plugin: commons-logging-1.2.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-escaped-character-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: org.eclipse.sisu.inject-0.9.0.M3.jar
+#14 540.7 [INFO] Resolved plugin: jackson-annotations-2.14.2.jar
+#14 540.7 [INFO] Resolved plugin: plexus-java-1.2.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-cipher-1.4.jar
+#14 540.7 [INFO] Resolved plugin: antlr4-runtime-4.9.3.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: guava-31.1-jre.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-3.4.2.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-aside-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-wikilink-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: commons-text-1.12.0.jar
+#14 540.7 [INFO] Resolved plugin: org.eclipse.sisu.inject-0.3.5.jar
+#14 540.7 [INFO] Resolved plugin: plexus-io-3.4.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-settings-3.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-plugin-api-3.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-gfm-tables-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: sisu-inject-bean-1.4.2.jar
+#14 540.7 [INFO] Resolved plugin: antlr4-runtime-4.7.2.jar
+#14 540.7 [INFO] Resolved plugin: classworlds-1.1-alpha-2.jar
+#14 540.7 [INFO] Resolved plugin: plexus-interpolation-1.27.jar
+#14 540.7 [INFO] Resolved plugin: junit-3.8.1.jar
+#14 540.7 [INFO] Resolved plugin: commons-io-2.11.0.jar
+#14 540.7 [INFO] Resolved plugin: jetty-io-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: velocity-engine-core-2.4.jar
+#14 540.7 [INFO] Resolved plugin: cdi-api-1.2.jar
+#14 540.7 [INFO] Resolved plugin: commons-chain-1.1.jar
+#14 540.7 [INFO] Resolved plugin: commons-codec-1.16.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-artifact-2.2.1.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-html-parser-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-surefire-plugin-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: javax.inject-1.jar
+#14 540.7 [INFO] Resolved plugin: commons-digester3-3.2.jar
+#14 540.7 [INFO] Resolved plugin: asm-tree-9.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-shared-utils-3.3.4.jar
+#14 540.7 [INFO] Resolved plugin: org.eclipse.sisu.plexus-0.9.0.M3.jar
+#14 540.7 [INFO] Resolved plugin: javax.servlet-api-3.1.0.jar
+#14 540.7 [INFO] Resolved plugin: jetty-util-ajax-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: jaxen-1.1-beta-8.jar
+#14 540.7 [INFO] Resolved plugin: ant-launcher-1.10.12.jar
+#14 540.7 [INFO] Resolved plugin: commons-io-2.13.0.jar
+#14 540.7 [INFO] Resolved plugin: surefire-booter-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-release-api-2.5.3.jar
+#14 540.7 [INFO] Resolved plugin: maven-mapping-3.0.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-settings-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-release-manager-2.5.3.jar
+#14 540.7 [INFO] Resolved plugin: jna-platform-5.13.0.jar
+#14 540.7 [INFO] Resolved plugin: jackson-core-2.14.2.jar
+#14 540.7 [INFO] Resolved plugin: jsoup-1.10.2.jar
+#14 540.7 [INFO] Resolved plugin: oro-2.0.8.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-cvsexe-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: plexus-classworlds-2.6.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-integrity-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: maven-common-artifact-filters-3.3.2.jar
+#14 540.7 [INFO] Resolved plugin: xz-1.9.jar
+#14 540.7 [INFO] Resolved plugin: reflections-0.10.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-settings-builder-3.0.jar
+#14 540.7 [INFO] Resolved plugin: aether-impl-1.0.0.v20140518.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-tfs-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: aether-util-1.7.jar
+#14 540.7 [INFO] Resolved plugin: commons-text-1.3.jar
+#14 540.7 [INFO] Resolved plugin: maven-core-3.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-4.0.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-lang-2.4.jar
+#14 540.7 [INFO] Resolved plugin: slf4j-api-1.7.36.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-apt-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-resolver-util-1.4.1.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-gfm-issues-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: jetty-util-9.4.46.v20220331.jar
+#14 540.7 [INFO] Resolved plugin: spring-jcl-6.1.19.jar
+#14 540.7 [INFO] Resolved plugin: maven-model-builder-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-clearcase-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: doxia-integration-tools-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: jackson-databind-2.14.2.jar
+#14 540.7 [INFO] Resolved plugin: plexus-archiver-4.2.7.jar
+#14 540.7 [INFO] Resolved plugin: enforcer-api-3.5.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-io-2.6.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-youtube-embedded-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-formatter-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: maven-model-3.2.5.jar
+#14 540.7 [INFO] Resolved plugin: spring-aop-6.1.19.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-4.0.1.jar
+#14 540.7 [INFO] Resolved plugin: staxmate-2.2.1.jar
+#14 540.7 [INFO] Resolved plugin: woodstox-core-asl-4.4.1.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-apt-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: jdom2-2.0.6.1.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-profile-pegdown-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-docbook-simple-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-accurev-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: commons-compress-1.25.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-hg-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: guava-16.0.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-starteam-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: error_prone_annotations-2.11.0.jar
+#14 540.7 [INFO] Resolved plugin: doxia-sink-api-2.0.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-typographic-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-autolink-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: cvsclient-20060125.jar
+#14 540.7 [INFO] Resolved plugin: commons-lang3-3.1.jar
+#14 540.7 [INFO] Resolved plugin: jdom-1.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-jekyll-tag-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-gitlab-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: surefire-extensions-api-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: commons-io-2.5.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-xdoc-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: spring-boot-buildpack-platform-3.3.11.jar
+#14 540.7 [INFO] Resolved plugin: doxia-site-renderer-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: sisu-inject-plexus-1.4.2.jar
+#14 540.7 [INFO] Resolved plugin: commons-beanutils-1.7.0.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-cvsjava-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: jackson-core-asl-1.9.4.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-git-commons-1.9.5.jar
+#14 540.7 [INFO] Resolved plugin: maven-war-plugin-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: groovy-all-1.7.6.jar
+#14 540.7 [INFO] Resolved plugin: ant-1.10.12.jar
+#14 540.7 [INFO] Resolved plugin: commons-lang3-3.14.0.jar
+#14 540.7 [INFO] Resolved plugin: spring-expression-6.1.19.jar
+#14 540.7 [INFO] Resolved plugin: plexus-classworlds-2.5.2.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-confluence-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-provider-svn-commons-1.9.5.jar
+#14 540.7 [INFO] Resolved plugin: doxia-module-xhtml5-1.11.1.jar
+#14 540.7 [INFO] Resolved plugin: maven-clean-plugin-3.4.0.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-tables-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: plexus-resources-1.3.0.jar
+#14 540.7 [INFO] Resolved plugin: javax.annotation-api-1.2.jar
+#14 540.7 [INFO] Resolved plugin: maven-scm-api-1.9.5.jar
+#14 540.7 [INFO] Resolved plugin: plexus-utils-3.4.1.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-macros-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: plexus-sec-dispatcher-1.3.jar
+#14 540.7 [INFO] Resolved plugin: maven-profile-2.2.1.jar
+#14 540.7 [INFO] Resolved plugin: aether-spi-1.7.jar
+#14 540.7 [INFO] Resolved plugin: jackson-module-parameter-names-2.14.2.jar
+#14 540.7 [INFO] Resolved plugin: commons-collections4-4.4.jar
+#14 540.7 [INFO] Resolved plugin: checker-qual-3.12.0.jar
+#14 540.7 [INFO] Resolved plugin: plexus-i18n-1.0-beta-10.jar
+#14 540.7 [INFO] Resolved plugin: stax2-api-3.1.4.jar
+#14 540.7 [INFO] Resolved plugin: flexmark-ext-gfm-users-0.42.14.jar
+#14 540.7 [INFO] Resolved plugin: Saxon-HE-10.6.jar
+#14 540.7 [INFO] Resolved plugin: plexus-archiver-4.9.2.jar
+#14 540.7 [INFO] Resolved plugin: plexus-archiver-4.7.1.jar
+#14 540.7 [INFO] Resolved plugin: backport-util-concurrent-3.1.jar
+#14 540.7 [INFO] Resolved plugin: micrometer-observation-1.12.12.jar
+#14 540.7 [INFO] Resolved plugin: asm-commons-9.5.jar
+#14 540.7 [INFO] Resolved dependency: spring-messaging-6.1.21.jar
+#14 540.7 [INFO] Resolved dependency: jetty-alpn-client-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: engine-fhir-3.29.0.jar
+#14 540.7 [INFO] Resolved dependency: junit-jupiter-params-5.10.1.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.inject-2.6.1.jar
+#14 540.7 [INFO] Resolved dependency: rxjava-1.2.0.jar
+#14 540.7 [INFO] Resolved dependency: netty-handler-proxy-4.1.89.Final.jar
+#14 540.7 [INFO] Resolved dependency: jena-shex-5.5.0.jar
+#14 540.7 [INFO] Resolved dependency: jaxb-api-2.3.1.jar
+#14 540.7 [INFO] Resolved dependency: fhir-test-cases-1.5.15.jar
+#14 540.7 [INFO] Resolved dependency: spring-jdbc-6.1.21.jar
+#14 540.7 [INFO] Resolved dependency: lucene-join-9.11.1.jar
+#14 540.7 [INFO] Resolved dependency: spring-boot-test-autoconfigure-3.3.11.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.xml.bind-api-4.0.1.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-jpaserver-searchparam-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: docker-java-transport-3.4.0.jar
+#14 540.7 [INFO] Resolved dependency: commons-net-3.11.1.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.activation-api-2.1.0.jar
+#14 540.7 [INFO] Resolved dependency: accessors-smart-2.5.2.jar
+#14 540.7 [INFO] Resolved dependency: libthrift-0.22.0.jar
+#14 540.7 [INFO] Resolved dependency: bootstrap-5.3.3.jar
+#14 540.7 [INFO] Resolved dependency: elasticsearch-rest-client-8.15.3.jar
+#14 540.7 [INFO] Resolved dependency: commons-codec-1.15.jar
+#14 540.7 [INFO] Resolved dependency: spring-web-6.1.21.jar
+#14 540.7 [INFO] Resolved dependency: jetty-websocket-jetty-server-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: error_prone_annotations-2.26.1.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-structures-dstu3-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: cache-api-1.1.1.jar
+#14 540.7 [INFO] Resolved dependency: commons-nulls-1.0.4.jar
+#14 540.7 [INFO] Resolved dependency: junit-jupiter-api-5.10.1.jar
+#14 540.7 [INFO] Resolved dependency: simpleclient_common-0.16.0.jar
+#14 540.7 [INFO] Resolved dependency: jandex-3.2.0.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-testpage-overlay-8.4.0.war
+#14 540.7 [INFO] Resolved dependency: jboss-logging-3.6.1.Final.jar
+#14 540.7 [INFO] Resolved dependency: netty-tcnative-boringssl-static-2.0.56.Final-linux-aarch_64.jar
+#14 540.7 [INFO] Resolved dependency: gson-2.12.0.jar
+#14 540.7 [INFO] Resolved dependency: elasticsearch-rest-client-sniffer-8.15.0.jar
+#14 540.7 [INFO] Resolved dependency: jetty-ee10-servlet-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: jetty-http-9.4.55.v20240627.jar
+#14 540.7 [INFO] Resolved dependency: commons-io-2.16.1.jar
+#14 540.7 [INFO] Resolved dependency: bcutil-jdk18on-1.78.1.jar
+#14 540.7 [INFO] Resolved dependency: docker-java-transport-zerodep-3.4.0.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-storage-mdm-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: json-unit-assertj-3.2.7.jar
+#14 540.7 [INFO] Resolved dependency: snakeyaml-2.2.jar
+#14 540.7 [INFO] Resolved dependency: netty-transport-native-kqueue-4.1.89.Final-osx-x86_64.jar
+#14 540.7 [INFO] Resolved dependency: micrometer-jakarta9-1.13.13.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.websocket-client-api-2.1.1.jar
+#14 540.7 [INFO] Resolved dependency: jetty-server-9.4.55.v20240627.jar
+#14 540.7 [INFO] Resolved dependency: prometheus-metrics-exposition-formats-1.2.1.jar
+#14 540.7 [INFO] Resolved dependency: commons-lang-2.6.jar
+#14 540.7 [INFO] Resolved dependency: bson-record-codec-4.11.3.jar
+#14 540.7 [INFO] Resolved dependency: jooq-3.14.16.jar
+#14 540.7 [INFO] Resolved dependency: docker-java-api-3.4.0.jar
+#14 540.7 [INFO] Resolved dependency: jackson-databind-2.10.5.1.jar
+#14 540.7 [INFO] Resolved dependency: spring-beans-6.1.19.jar
+#14 540.7 [INFO] Resolved dependency: jquery-1.11.1.jar
+#14 540.7 [INFO] Resolved dependency: ph-jaxb-11.1.0.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.activation-api-2.1.2.jar
+#14 540.7 [INFO] Resolved dependency: accessors-smart-2.5.0.jar
+#14 540.7 [INFO] Resolved dependency: httpclient5-5.3.1.jar
+#14 540.7 [INFO] Resolved dependency: lucene-facet-9.11.1.jar
+#14 540.7 [INFO] Resolved dependency: commons-csv-1.10.0.jar
+#14 540.7 [INFO] Resolved dependency: jackson-dataformat-yaml-2.17.1.jar
+#14 540.7 [INFO] Resolved dependency: netty-buffer-4.1.89.Final.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.enterprise.cdi-api-4.0.1.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-structures-r4-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-caching-api-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: jersey-common-2.43.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.validation-api-2.0.2.jar
+#14 540.7 [INFO] Resolved dependency: junit-platform-engine-1.12.2.jar
+#14 540.7 [INFO] Resolved dependency: spring-boot-autoconfigure-3.3.11.jar
+#14 540.7 [INFO] Resolved dependency: slf4j-api-2.0.11.jar
+#14 540.7 [INFO] Resolved dependency: error_prone_annotations-2.18.0.jar
+#14 540.7 [INFO] Resolved dependency: slf4j-api-2.0.4.jar
+#14 540.7 [INFO] Resolved dependency: httpclient-4.5.14.jar
+#14 540.7 [INFO] Resolved dependency: rocksdbjni-5.18.4.jar
+#14 540.7 [INFO] Resolved dependency: netty-resolver-4.1.89.Final.jar
+#14 540.7 [INFO] Resolved dependency: sqlbuilder-3.0.2.jar
+#14 540.7 [INFO] Resolved dependency: mssqlserver-1.20.3.jar
+#14 540.7 [INFO] Resolved dependency: netty-tcnative-boringssl-static-2.0.56.Final-osx-x86_64.jar
+#14 540.7 [INFO] Resolved dependency: flexmark-0.64.8.jar
+#14 540.7 [INFO] Resolved dependency: junit-jupiter-api-5.11.4.jar
+#14 540.7 [INFO] Resolved dependency: org.hl7.fhir.r4-6.5.27.jar
+#14 540.7 [INFO] Resolved dependency: opentelemetry-api-1.44.1.jar
+#14 540.7 [INFO] Resolved dependency: log4j-1.2.17.jar
+#14 540.7 [INFO] Resolved dependency: spring-boot-starter-test-3.3.11.jar
+#14 540.7 [INFO] Resolved dependency: log4j-api-2.22.1.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-jpaserver-hfql-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: hibernate-search-util-common-7.2.1.Final.jar
+#14 540.7 [INFO] Resolved dependency: springdoc-openapi-starter-common-2.6.0.jar
+#14 540.7 [INFO] Resolved dependency: tomcat-annotations-api-8.5.100.jar
+#14 540.7 [INFO] Resolved dependency: antlr4-runtime-4.13.0.jar
+#14 540.7 [INFO] Resolved dependency: commons-compress-1.24.0.jar
+#14 540.7 [INFO] Resolved dependency: spring-web-6.1.19.jar
+#14 540.7 [INFO] Resolved dependency: azure-identity-1.9.0.jar
+#14 540.7 [INFO] Resolved dependency: org.hl7.fhir.utilities-6.5.27.jar
+#14 540.7 [INFO] Resolved dependency: springdoc-openapi-starter-webmvc-api-2.6.0.jar
+#14 540.7 [INFO] Resolved dependency: antlr-2.7.7.jar
+#14 540.7 [INFO] Resolved dependency: httpcore5-5.2.4.jar
+#14 540.7 [INFO] Resolved dependency: snakeyaml-2.3.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-validation-resources-dstu3-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: kotlinx-coroutines-core-jvm-1.7.3.jar
+#14 540.7 [INFO] Resolved dependency: flexmark-util-dependency-0.64.8.jar
+#14 540.7 [INFO] Resolved dependency: jetty-server-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: failureaccess-1.0.1.jar
+#14 540.7 [INFO] Resolved dependency: jackson-databind-2.13.4.2.jar
+#14 540.7 [INFO] Resolved dependency: junit-4.13.2.jar
+#14 540.7 [INFO] Resolved dependency: jetty-websocket-jetty-common-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: jackson-core-2.10.5.jar
+#14 540.7 [INFO] Resolved dependency: spring-orm-6.1.21.jar
+#14 540.7 [INFO] Resolved dependency: zstd-jni-1.4.9-1.jar
+#14 540.7 [INFO] Resolved dependency: jmail-1.6.3.jar
+#14 540.7 [INFO] Resolved dependency: jackson-core-2.17.3.jar
+#14 540.7 [INFO] Resolved dependency: byte-buddy-1.14.11.jar
+#14 540.7 [INFO] Resolved dependency: icu4j-72.1.jar
+#14 540.7 [INFO] Resolved dependency: assertj-core-3.22.0.jar
+#14 540.7 [INFO] Resolved dependency: jackson-dataformat-xml-2.17.1.jar
+#14 540.7 [INFO] Resolved dependency: engine-3.29.0.jar
+#14 540.7 [INFO] Resolved dependency: attoparser-2.0.7.RELEASE.jar
+#14 540.7 [INFO] Resolved dependency: cqf-fhir-cr-3.26.0.jar
+#14 540.7 [INFO] Resolved dependency: btf-1.2.jar
+#14 540.7 [INFO] Resolved dependency: kotlin-stdlib-jdk8-1.9.24.jar
+#14 540.7 [INFO] Resolved dependency: jackson-datatype-jdk8-2.17.3.jar
+#14 540.7 [INFO] Resolved dependency: commons-codec-1.11.jar
+#14 540.7 [INFO] Resolved dependency: org.hl7.fhir.dstu3-6.5.27.jar
+#14 540.7 [INFO] Resolved dependency: jetty-client-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: jackson-datatype-jsr310-2.17.1.jar
+#14 540.7 [INFO] Resolved dependency: netty-tcnative-classes-2.0.56.Final.jar
+#14 540.7 [INFO] Resolved dependency: simpleclient_tracer_otel_agent-0.16.0.jar
+#14 540.7 [INFO] Resolved dependency: model-jackson-3.29.0.jar
+#14 540.7 [INFO] Resolved dependency: ojdbc11-21.5.0.0.jar
+#14 540.7 [INFO] Resolved dependency: jcl-over-slf4j-2.0.4.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-jpaserver-mdm-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: commons-compiler-3.1.8.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.xml.bind-api-4.0.2.jar
+#14 540.7 [INFO] Resolved dependency: owasp-java-html-sanitizer-20240325.1.jar
+#14 540.7 [INFO] Resolved dependency: httpcore5-h2-5.2.4.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-server-cds-hooks-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.annotation-api-2.1.1.jar
+#14 540.7 [INFO] Resolved dependency: jakarta.mail-api-2.1.0.jar
+#14 540.7 [INFO] Resolved dependency: lucene-sandbox-9.11.1.jar
+#14 540.7 [INFO] Resolved dependency: hapi-fhir-jpaserver-test-utilities-8.4.0.jar
+#14 540.7 [INFO] Resolved dependency: htmlunit-websocket-client-4.6.0.jar
+#14 540.7 [INFO] Resolved dependency: jetty-security-12.0.17.jar
+#14 540.7 [INFO] Resolved dependency: nimbus-jose-jwt-9.37.3.jar
+#14 540.7 [INFO] Resolved dependency: prometheus-metrics-tracer-common-1.2.1.jar
+#14 540.7 [INFO] Resolved dependency: jna-platform-4.5.1.jar
+#14 540.7 [INFO] Resolved dependency: eventstream-1.0.1.jar
+#14 540.7 [INFO] Resolved dependency: retries-2.26.4.jar
+#14 540.7 [INFO] Resolved dependency: jaxb-runtime-2.3.1.jar
+#14 540.7 [INFO] Resolved dependency: json-path-2.9.0.jar
+#14 540.7 [INFO] Resolved dependency: clustered-object-pool-2.1.2.jar
+#14 540.7 [INFO] Resolved dependency: jakarta-regexp-1.4.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-commons-annotations-7.0.3.Final.jar
+#14 540.8 [INFO] Resolved dependency: titanium-json-ld-1.6.0.jar
+#14 540.8 [INFO] Resolved dependency: titanium-rdf-api-1.0.0.jar
+#14 540.8 [INFO] Resolved dependency: woodstox-core-6.4.0.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-1.7.25.jar
+#14 540.8 [INFO] Resolved dependency: jackson-core-2.17.1.jar
+#14 540.8 [INFO] Resolved dependency: HdrHistogram-2.1.12.jar
+#14 540.8 [INFO] Resolved dependency: bson-4.11.3.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.annotation-api-2.1.0.jar
+#14 540.8 [INFO] Resolved dependency: jetty-io-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: bcjmail-jdk18on-1.78.1.jar
+#14 540.8 [INFO] Resolved dependency: jackson-datatype-jsr310-2.17.3.jar
+#14 540.8 [INFO] Resolved dependency: log4j-core-2.23.1.jar
+#14 540.8 [INFO] Resolved dependency: poi-scratchpad-5.2.5.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-starter-web-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: httpasyncclient-4.1.5.jar
+#14 540.8 [INFO] Resolved dependency: bcutil-jdk15on-1.70.jar
+#14 540.8 [INFO] Resolved dependency: spring-jcl-6.1.15.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-observation-1.13.3.jar
+#14 540.8 [INFO] Resolved dependency: xpp3-1.1.6.jar
+#14 540.8 [INFO] Resolved dependency: spring-expression-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: janino-3.1.8.jar
+#14 540.8 [INFO] Resolved dependency: reactor-netty-http-1.0.28.jar
+#14 540.8 [INFO] Resolved dependency: prometheus-metrics-shaded-protobuf-1.2.1.jar
+#14 540.8 [INFO] Resolved dependency: istack-commons-runtime-4.1.2.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-cql-3.26.0.jar
+#14 540.8 [INFO] Resolved dependency: thymeleaf-spring6-3.1.2.RELEASE.jar
+#14 540.8 [INFO] Resolved dependency: FastInfoset-1.2.15.jar
+#14 540.8 [INFO] Resolved dependency: spring-beans-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: lucene-queries-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: jetty-websocket-jetty-api-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: simple-java-mail-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-2.0.17.jar
+#14 540.8 [INFO] Resolved dependency: third-party-jackson-core-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-envers-6.6.4.Final.jar
+#14 540.8 [INFO] Resolved dependency: ehcache-2.10.9.2.jar
+#14 540.8 [INFO] Resolved dependency: hazelcast-5.3.2.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-3.3.0.jar
+#14 540.8 [INFO] Resolved dependency: jquery-3.5.1.jar
+#14 540.8 [INFO] Resolved dependency: h2-2.3.232.jar
+#14 540.8 [INFO] Resolved dependency: junit-platform-commons-1.10.1.jar
+#14 540.8 [INFO] Resolved dependency: spring-aop-6.1.15.jar
+#14 540.8 [INFO] Resolved dependency: commons-math3-3.6.1.jar
+#14 540.8 [INFO] Resolved dependency: spring-security-crypto-5.7.14.jar
+#14 540.8 [INFO] Resolved dependency: log4j-to-slf4j-2.23.1.jar
+#14 540.8 [INFO] Resolved dependency: jetty-jndi-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-engine-5.10.1.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-commons-1.13.3.jar
+#14 540.8 [INFO] Resolved dependency: checksums-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: spring-expression-6.1.20.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-core-1.13.13.jar
+#14 540.8 [INFO] Resolved dependency: elasticsearch-java-8.15.3.jar
+#14 540.8 [INFO] Resolved dependency: lucene-core-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: jaxb-runtime-4.0.4.jar
+#14 540.8 [INFO] Resolved dependency: opentest4j-1.3.0.jar
+#14 540.8 [INFO] Resolved dependency: commons-logging-1.2.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-autoconfigure-3.3.0.jar
+#14 540.8 [INFO] Resolved dependency: netty-tcnative-boringssl-static-2.0.56.Final-osx-aarch_64.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-server-mdm-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: xmlunit-core-2.9.1.jar
+#14 540.8 [INFO] Resolved dependency: commons-dbcp2-2.11.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-starter-tomcat-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: spring-webmvc-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-sql-migrate-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: regions-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-validation-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: httpcore-4.4.13.jar
+#14 540.8 [INFO] Resolved dependency: java8-shim-20240325.1.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-starter-json-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: antlr4-runtime-4.9.3.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-5.10.5.jar
+#14 540.8 [INFO] Resolved dependency: jetty-util-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: commons-text-1.10.0.jar
+#14 540.8 [INFO] Resolved dependency: cql-to-elm-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: jna-4.5.1.jar
+#14 540.8 [INFO] Resolved dependency: duct-tape-1.0.8.jar
+#14 540.8 [INFO] Resolved dependency: HikariCP-5.0.1.jar
+#14 540.8 [INFO] Resolved dependency: generic-object-pool-2.2.2.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-api-5.10.5.jar
+#14 540.8 [INFO] Resolved dependency: simpleclient_tracer_common-0.16.0.jar
+#14 540.8 [INFO] Resolved dependency: momentjs-2.10.3.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-format-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: lucene-queryparser-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: jena-core-5.5.0.jar
+#14 540.8 [INFO] Resolved dependency: jetty-plus-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-jpa-hibernate-services-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.enterprise.lang-model-4.0.1.jar
+#14 540.8 [INFO] Resolved dependency: spring-context-support-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: parsson-1.0.5.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-search-backend-lucene-7.2.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: postgresql-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: jstimezonedetect-1.0.6.jar
+#14 540.8 [INFO] Resolved dependency: reactor-core-3.4.27.jar
+#14 540.8 [INFO] Resolved dependency: jetty-session-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-storage-test-utilities-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-websocket-servlet-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: opentelemetry-context-1.44.1.jar
+#14 540.8 [INFO] Resolved dependency: sdk-core-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: netty-tcnative-boringssl-static-2.0.56.Final-linux-x86_64.jar
+#14 540.8 [INFO] Resolved dependency: logback-classic-1.2.13.jar
+#14 540.8 [INFO] Resolved dependency: tomcat-embed-websocket-10.1.40.jar
+#14 540.8 [INFO] Resolved dependency: spring-beans-6.1.20.jar
+#14 540.8 [INFO] Resolved dependency: netty-transport-classes-kqueue-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-validation-resources-r4b-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-commons-annotations-5.1.2.Final.jar
+#14 540.8 [INFO] Resolved dependency: waffle-jna-1.9.1.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-starter-logging-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: identity-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: spring-jcl-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-registry-prometheus-1.13.3.jar
+#14 540.8 [INFO] Resolved dependency: jena-langtag-5.5.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-jpa-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-base-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: checker-qual-3.33.0.jar
+#14 540.8 [INFO] Resolved dependency: json-patch-1.15.jar
+#14 540.8 [INFO] Resolved dependency: jackson-coreutils-1.6.jar
+#14 540.8 [INFO] Resolved dependency: utils-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: spring-aop-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: ojdbc11-23.6.0.24.10.jar
+#14 540.8 [INFO] Resolved dependency: quartz-2.3.2.jar
+#14 540.8 [INFO] Resolved dependency: commons-codec-1.16.0.jar
+#14 540.8 [INFO] Resolved dependency: jackson-annotations-2.10.3.jar
+#14 540.8 [INFO] Resolved dependency: spring-security-core-5.7.14.jar
+#14 540.8 [INFO] Resolved dependency: aspectjweaver-1.9.22.1.jar
+#14 540.8 [INFO] Resolved dependency: txw2-2.3.1.jar
+#14 540.8 [INFO] Resolved dependency: netty-codec-dns-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: objenesis-3.3.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-1.7.36.jar
+#14 540.8 [INFO] Resolved dependency: collection-0.7.jar
+#14 540.8 [INFO] Resolved dependency: spring-jcl-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-commons-1.13.13.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-annotations-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: kotlin-reflect-1.9.24.jar
+#14 540.8 [INFO] Resolved dependency: Eonasdan-bootstrap-datetimepicker-4.17.49.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-core-1.13.3.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-utility-3.26.0.jar
+#14 540.8 [INFO] Resolved dependency: jcl-over-slf4j-1.7.25.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-2.0.0-alpha1.jar
+#14 540.8 [INFO] Resolved dependency: jdbc-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: caffeine-3.1.8.jar
+#14 540.8 [INFO] Resolved dependency: spring-aop-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-validator-8.0.0.Final.jar
+#14 540.8 [INFO] Resolved dependency: log4j-api-2.23.1.jar
+#14 540.8 [INFO] Resolved dependency: error_prone_annotations-2.36.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-validation-resources-r4-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: httpcore-4.4.16.jar
+#14 540.8 [INFO] Resolved dependency: kafka-streams-2.8.2.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-html-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: smtp-connection-pool-2.3.5.jar
+#14 540.8 [INFO] Resolved dependency: thymeleaf-3.1.2.RELEASE.jar
+#14 540.8 [INFO] Resolved dependency: batch-module-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.activation-api-2.1.3.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-commons-annotations-7.0.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-storage-batch2-jobs-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: netty-buffer-4.1.112.Final.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-server-openapi-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: jackson-annotations-2.17.1.jar
+#14 540.8 [INFO] Resolved dependency: sqlite-jdbc-3.49.1.0.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-2.0.13.jar
+#14 540.8 [INFO] Resolved dependency: jackson-annotations-2.17.3.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: junit-platform-commons-1.11.4.jar
+#14 540.8 [INFO] Resolved dependency: simpleclient-0.16.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-tx-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.model-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: jackson-annotations-2.10.5.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-engine-5.10.5.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-actuator-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: guava-33.2.1-jre.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-2.0.16.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-client-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: kotlin-stdlib-1.8.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-starter-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: connect-json-2.8.2.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.inject-api-2.0.1.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.support-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: netty-resolver-4.1.112.Final.jar
+#14 540.8 [INFO] Resolved dependency: spring-expression-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: spring-webmvc-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: logback-core-1.2.13.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.dstu2016may-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: kafka-clients-2.8.2.jar
+#14 540.8 [INFO] Resolved dependency: smime-module-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: httpcore5-h2-5.3.4.jar
+#14 540.8 [INFO] Resolved dependency: okio-3.2.0.jar
+#14 540.8 [INFO] Resolved dependency: lucene-highlighter-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: connect-api-2.8.2.jar
+#14 540.8 [INFO] Resolved dependency: model-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: htmlunit-core-js-4.6.0.jar
+#14 540.8 [INFO] Resolved dependency: jandex-2.4.2.Final.jar
+#14 540.8 [INFO] Resolved dependency: opentelemetry-instrumentation-annotations-2.10.0.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.json-api-2.0.1.jar
+#14 540.8 [INFO] Resolved dependency: guava-testlib-33.2.1-jre.jar
+#14 540.8 [INFO] Resolved dependency: htmlunit-xpath-4.6.0.jar
+#14 540.8 [INFO] Resolved dependency: core-module-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: titanium-jcs-1.0.0.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-collection-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: checker-qual-3.49.3.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-core-6.6.4.Final.jar
+#14 540.8 [INFO] Resolved dependency: bcpkix-jdk18on-1.78.1.jar
+#14 540.8 [INFO] Resolved dependency: ph-xml-11.1.0.jar
+#14 540.8 [INFO] Resolved dependency: outlook-message-parser-1.14.1.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-observation-1.12.12.jar
+#14 540.8 [INFO] Resolved dependency: accessors-smart-2.4.9.jar
+#14 540.8 [INFO] Resolved dependency: jena-iri-5.5.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-server-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: httpcore5-5.3.1.jar
+#14 540.8 [INFO] Resolved dependency: netty-transport-native-epoll-4.1.89.Final-linux-x86_64.jar
+#14 540.8 [INFO] Resolved dependency: SparseBitSet-1.3.jar
+#14 540.8 [INFO] Resolved dependency: spring-context-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-structures-dstu2-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: xmlresolver-5.2.1.jar
+#14 540.8 [INFO] Resolved dependency: guava-32.1.2-jre.jar
+#14 540.8 [INFO] Resolved dependency: hystrix-core-1.5.12.jar
+#14 540.8 [INFO] Resolved dependency: commons-configuration-1.8.jar
+#14 540.8 [INFO] Resolved dependency: jackson-module-jakarta-xmlbind-annotations-2.17.1.jar
+#14 540.8 [INFO] Resolved dependency: jackson-databind-2.17.1.jar
+#14 540.8 [INFO] Resolved dependency: json-smart-2.5.2.jar
+#14 540.8 [INFO] Resolved dependency: elasticsearch-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: elm-jackson-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: netty-transport-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: jspecify-1.0.0.jar
+#14 540.8 [INFO] Resolved dependency: byte-buddy-1.12.18.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-data-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: testcontainers-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: xml-patch-0.3.1.jar
+#14 540.8 [INFO] Resolved dependency: jna-5.13.0.jar
+#14 540.8 [INFO] Resolved dependency: javassist-3.27.0-GA.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.convertors-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: ph-schematron-api-7.1.2.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-api-5.12.2.jar
+#14 540.8 [INFO] Resolved dependency: ucum-1.0.9.jar
+#14 540.8 [INFO] Resolved dependency: azure-core-http-netty-1.13.2.jar
+#14 540.8 [INFO] Resolved dependency: netty-resolver-dns-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: netty-resolver-dns-classes-macos-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: jetbrains-runtime-annotations-1.0.2.jar
+#14 540.8 [INFO] Resolved dependency: http-auth-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: jena-arq-5.5.0.jar
+#14 540.8 [INFO] Resolved dependency: javax.activation-api-1.2.0.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-npm-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-core-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-ast-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: jetty-util-9.4.55.v20240627.jar
+#14 540.8 [INFO] Resolved dependency: elm-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-websocket-jakarta-server-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-test-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: auth-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: commonmark-0.21.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-jpaserver-base-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.transaction-api-2.0.1.jar
+#14 540.8 [INFO] Resolved dependency: jena-base-5.5.0.jar
+#14 540.8 [INFO] Resolved dependency: javolution-5.2.3.jar
+#14 540.8 [INFO] Resolved dependency: oauth2-oidc-sdk-10.7.1.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-storage-batch2-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-commons-1.12.12.jar
+#14 540.8 [INFO] Resolved dependency: log4j-to-slf4j-2.24.1.jar
+#14 540.8 [INFO] Resolved dependency: json-smart-2.5.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-structures-r5-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: swagger-models-jakarta-2.2.30.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-5.10.1.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-structures-dstu2.1-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: rtf-to-html-1.1.1.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-starter-actuator-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: annotations-17.0.0.jar
+#14 540.8 [INFO] Resolved dependency: assertj-core-3.25.3.jar
+#14 540.8 [INFO] Resolved dependency: apm-agent-api-1.52.0.jar
+#14 540.8 [INFO] Resolved dependency: xmlsec-4.0.4.jar
+#14 540.8 [INFO] Resolved dependency: ognl-3.3.4.jar
+#14 540.8 [INFO] Resolved dependency: commons-codec-1.17.2.jar
+#14 540.8 [INFO] Resolved dependency: commonmark-ext-gfm-tables-0.21.0.jar
+#14 540.8 [INFO] Resolved dependency: logback-classic-1.5.16.jar
+#14 540.8 [INFO] Resolved dependency: json-unit-core-3.2.7.jar
+#14 540.8 [INFO] Resolved dependency: spring-core-6.1.20.jar
+#14 540.8 [INFO] Resolved dependency: jetty-websocket-core-common-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: xmlresolver-4.6.4.jar
+#14 540.8 [INFO] Resolved dependency: prometheus-metrics-model-1.2.1.jar
+#14 540.8 [INFO] Resolved dependency: byte-buddy-agent-1.14.12.jar
+#14 540.8 [INFO] Resolved dependency: javassist-3.29.0-GA.jar
+#14 540.8 [INFO] Resolved dependency: netty-common-4.1.112.Final.jar
+#14 540.8 [INFO] Resolved dependency: commons-lang3-3.18.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-structures-r4b-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: oracle-xe-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-jpaserver-subscription-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: throwing-function-1.5.1.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.mail-2.0.3.jar
+#14 540.8 [INFO] Resolved dependency: ace-builds-1.36.3.jar
+#14 540.8 [INFO] Resolved dependency: awaitility-4.2.0.jar
+#14 540.8 [INFO] Resolved dependency: profiles-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: utils-data-fetcher-4.0.2.jar
+#14 540.8 [INFO] Resolved dependency: netty-codec-socks-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-testpage-overlay-8.4.0-classes.jar
+#14 540.8 [INFO] Resolved dependency: utils-mail-dkim-3.2.0.jar
+#14 540.8 [INFO] Resolved dependency: xmlresolver-4.6.4-data.jar
+#14 540.8 [INFO] Resolved dependency: ph-xsds-xml-3.0.0.jar
+#14 540.8 [INFO] Resolved dependency: javax.persistence-api-2.2.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.el-api-5.0.0.jar
+#14 540.8 [INFO] Resolved dependency: archaius-core-0.4.1.jar
+#14 540.8 [INFO] Resolved dependency: junit-platform-engine-1.10.1.jar
+#14 540.8 [INFO] Resolved dependency: outlook-module-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: antlr4-4.13.1.jar
+#14 540.8 [INFO] Resolved dependency: content-type-2.2.jar
+#14 540.8 [INFO] Resolved dependency: okio-jvm-3.2.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-core-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: netty-resolver-dns-native-macos-4.1.89.Final-osx-x86_64.jar
+#14 540.8 [INFO] Resolved dependency: listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+#14 540.8 [INFO] Resolved dependency: junit-platform-commons-1.10.5.jar
+#14 540.8 [INFO] Resolved dependency: graphql-java-23.1.jar
+#14 540.8 [INFO] Resolved dependency: azure-json-1.0.0.jar
+#14 540.8 [INFO] Resolved dependency: jansi-2.4.0.jar
+#14 540.8 [INFO] Resolved dependency: moment-2.29.4.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-visitor-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: reactive-streams-1.0.3.jar
+#14 540.8 [INFO] Resolved dependency: txw2-4.0.4.jar
+#14 540.8 [INFO] Resolved dependency: Saxon-HE-11.6.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-websocket-jakarta-common-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: java10-shim-20240325.1.jar
+#14 540.8 [INFO] Resolved dependency: asm-9.3.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-jackson-3.26.0.pom
+#14 540.8 [INFO] Resolved dependency: angus-activation-2.0.2.jar
+#14 540.8 [INFO] Resolved dependency: osgi-resource-locator-1.0.3.jar
+#14 540.8 [INFO] Resolved dependency: asm-9.7.1.jar
+#14 540.8 [INFO] Resolved dependency: mssql-jdbc-12.4.2.jre11.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-core-1.5.10.jar
+#14 540.8 [INFO] Resolved dependency: checker-qual-3.42.0.jar
+#14 540.8 [INFO] Resolved dependency: annotations-26.0.1.jar
+#14 540.8 [INFO] Resolved dependency: json-smart-2.4.10.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.r5-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-servlets-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: logback-classic-1.5.18.jar
+#14 540.8 [INFO] Resolved dependency: popper.js-2.11.7.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: reactive-streams-1.0.2.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.r4b-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: jna-platform-5.6.0.jar
+#14 540.8 [INFO] Resolved dependency: retries-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: htmlunit-csp-4.6.0.jar
+#14 540.8 [INFO] Resolved dependency: bcpkix-jdk15on-1.70.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.interceptor-api-2.1.0.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-search-mapper-pojo-base-7.2.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-entitymanager-5.6.15.Final.jar
+#14 540.8 [INFO] Resolved dependency: titanium-rdf-n-quads-1.0.0.jar
+#14 540.8 [INFO] Resolved dependency: angus-activation-2.0.1.jar
+#14 540.8 [INFO] Resolved dependency: greenmail-junit5-2.1.0-rc-1.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-misc-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: jackson-annotations-2.13.5.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-search-engine-7.2.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: Saxon-HE-11.5.jar
+#14 540.8 [INFO] Resolved dependency: jcip-annotations-1.0-1.jar
+#14 540.8 [INFO] Resolved dependency: msg-simple-1.1.jar
+#14 540.8 [INFO] Resolved dependency: jsr305-3.0.2.jar
+#14 540.8 [INFO] Resolved dependency: protobuf-java-4.31.1.jar
+#14 540.8 [INFO] Resolved dependency: jackson-databind-2.17.3.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-search-mapper-orm-7.2.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: log4j-api-2.24.1.jar
+#14 540.8 [INFO] Resolved dependency: mockito-junit-jupiter-5.11.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-validation-resources-dstu2-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: javassist-3.22.0-GA.jar
+#14 540.8 [INFO] Resolved dependency: mockito-core-5.11.0.jar
+#14 540.8 [INFO] Resolved dependency: kotlin-stdlib-jdk7-1.9.24.jar
+#14 540.8 [INFO] Resolved dependency: commons-compress-1.26.0.jar
+#14 540.8 [INFO] Resolved dependency: jackson-dataformat-toml-2.15.2.jar
+#14 540.8 [INFO] Resolved dependency: netty-transport-classes-epoll-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: elm-fhir-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: jscience-4.3.1.jar
+#14 540.8 [INFO] Resolved dependency: htmlunit-cssparser-4.6.0.jar
+#14 540.8 [INFO] Resolved dependency: grpc-stub-1.57.2.jar
+#14 540.8 [INFO] Resolved dependency: httpcore-nio-4.4.16.jar
+#14 540.8 [INFO] Resolved dependency: jackson-module-parameter-names-2.17.3.jar
+#14 540.8 [INFO] Resolved dependency: prometheus-metrics-config-1.2.1.jar
+#14 540.8 [INFO] Resolved dependency: opentelemetry-context-1.29.0.jar
+#14 540.8 [INFO] Resolved dependency: datasource-proxy-1.10.jar
+#14 540.8 [INFO] Resolved dependency: httpmime-4.5.14.jar
+#14 540.8 [INFO] Resolved dependency: unbescape-1.1.6.RELEASE.jar
+#14 540.8 [INFO] Resolved dependency: jetty-xml-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: netty-common-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: lang-tag-1.7.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.dstu2-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: swagger-ui-5.21.0.jar
+#14 540.8 [INFO] Resolved dependency: gson-2.10.1.jar
+#14 540.8 [INFO] Resolved dependency: dkim-module-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: mongodb-driver-core-4.11.3.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: byte-buddy-1.15.11.jar
+#14 540.8 [INFO] Resolved dependency: http-auth-aws-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: netty-codec-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: tomcat-embed-el-10.1.40.jar
+#14 540.8 [INFO] Resolved dependency: flyway-core-10.20.1.jar
+#14 540.8 [INFO] Resolved dependency: tomcat-embed-core-10.1.40.jar
+#14 540.8 [INFO] Resolved dependency: commons-io-2.17.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-websocket-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: prometheus-metrics-core-1.2.1.jar
+#14 540.8 [INFO] Resolved dependency: reactive-streams-1.0.4.jar
+#14 540.8 [INFO] Resolved dependency: jersey-client-2.43.jar
+#14 540.8 [INFO] Resolved dependency: http-auth-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: caffeine-2.9.3.jar
+#14 540.8 [INFO] Resolved dependency: cql-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-storage-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: ph-commons-11.1.0.jar
+#14 540.8 [INFO] Resolved dependency: springdoc-openapi-starter-webmvc-ui-2.6.0.jar
+#14 540.8 [INFO] Resolved dependency: avalon-framework-4.1.5.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-caching-caffeine-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: bcprov-jdk15on-1.70.jar
+#14 540.8 [INFO] Resolved dependency: junit-platform-engine-1.10.5.jar
+#14 540.8 [INFO] Resolved dependency: nimbus-jose-jwt-9.30.2.jar
+#14 540.8 [INFO] Resolved dependency: bootstrap-3.1.1-2.jar
+#14 540.8 [INFO] Resolved dependency: netty-transport-native-unix-common-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: jboss-transaction-api_1.2_spec-1.1.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-search-backend-elasticsearch-aws-7.2.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: plantuml-mit-1.2023.9.jar
+#14 540.8 [INFO] Resolved dependency: spring-test-6.1.19.jar
+#14 540.8 [INFO] Resolved dependency: okhttp-4.11.0.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.ws.rs-api-2.1.6.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.el-4.0.2.jar
+#14 540.8 [INFO] Resolved dependency: jersey-server-2.43.jar
+#14 540.8 [INFO] Resolved dependency: context-propagation-1.1.1.jar
+#14 540.8 [INFO] Resolved dependency: mockito-core-5.17.0.jar
+#14 540.8 [INFO] Resolved dependency: javax.annotation-api-1.3.2.jar
+#14 540.8 [INFO] Resolved dependency: jul-to-slf4j-2.0.17.jar
+#14 540.8 [INFO] Resolved dependency: azure-security-keyvault-keys-4.6.1.jar
+#14 540.8 [INFO] Resolved dependency: RoaringBitmap-1.3.0.jar
+#14 540.8 [INFO] Resolved dependency: httpclient5-5.4.3.jar
+#14 540.8 [INFO] Resolved dependency: lucene-analysis-common-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.servlet-api-5.0.0.jar
+#14 540.8 [INFO] Resolved dependency: json-unit-json-path-3.2.7.jar
+#14 540.8 [INFO] Resolved dependency: mongodb-driver-sync-4.11.3.jar
+#14 540.8 [INFO] Resolved dependency: utils-mail-smime-2.3.11.jar
+#14 540.8 [INFO] Resolved dependency: lombok-1.18.32.jar
+#14 540.8 [INFO] Resolved dependency: bcprov-jdk18on-1.78.1.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-engine-5.12.2.jar
+#14 540.8 [INFO] Resolved dependency: httpcore-nio-4.4.15.jar
+#14 540.8 [INFO] Resolved dependency: stax-ex-1.8.jar
+#14 540.8 [INFO] Resolved dependency: spring-context-6.1.20.jar
+#14 540.8 [INFO] Resolved dependency: commons-pool2-2.12.0.jar
+#14 540.8 [INFO] Resolved dependency: spring-retry-2.0.10.jar
+#14 540.8 [INFO] Resolved dependency: snappy-java-1.1.8.1.jar
+#14 540.8 [INFO] Resolved dependency: jackson-datatype-jdk8-2.10.5.jar
+#14 540.8 [INFO] Resolved dependency: failureaccess-1.0.2.jar
+#14 540.8 [INFO] Resolved dependency: asm-tree-9.7.1.jar
+#14 540.8 [INFO] Resolved dependency: istack-commons-runtime-3.0.7.jar
+#14 540.8 [INFO] Resolved dependency: jcl-over-slf4j-2.0.16.jar
+#14 540.8 [INFO] Resolved dependency: lz4-java-1.7.1.jar
+#14 540.8 [INFO] Resolved dependency: hamcrest-2.1.jar
+#14 540.8 [INFO] Resolved dependency: endpoints-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: jetty-io-9.4.55.v20240627.jar
+#14 540.8 [INFO] Resolved dependency: j2objc-annotations-3.0.0.jar
+#14 540.8 [INFO] Resolved dependency: netty-tcnative-boringssl-static-2.0.56.Final-windows-x86_64.jar
+#14 540.8 [INFO] Resolved dependency: ST4-4.0.8.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-jpaserver-model-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.mail-api-2.1.3.jar
+#14 540.8 [INFO] Resolved dependency: eddsa-0.3.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-converter-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: junit-platform-commons-1.12.2.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-cr-hapi-3.26.0.jar
+#14 540.8 [INFO] Resolved dependency: HdrHistogram-2.2.2.jar
+#14 540.8 [INFO] Resolved dependency: jaxb-core-4.0.4.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-actuator-autoconfigure-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: hamcrest-2.2.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-websocket-jakarta-client-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: javax.servlet-api-3.1.0.jar
+#14 540.8 [INFO] Resolved dependency: lucene-memory-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-webapp-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: tomcat-embed-core-8.5.100.jar
+#14 540.8 [INFO] Resolved dependency: kotlin-stdlib-common-1.8.0.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-builder-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: azure-core-1.38.0.jar
+#14 540.8 [INFO] Resolved dependency: msal4j-1.13.8.jar
+#14 540.8 [INFO] Resolved dependency: java-string-similarity-1.2.1.jar
+#14 540.8 [INFO] Resolved dependency: greenmail-2.1.0-rc-1.jar
+#14 540.8 [INFO] Resolved dependency: junit-jupiter-params-5.10.5.jar
+#14 540.8 [INFO] Resolved dependency: reactor-netty-core-1.0.28.jar
+#14 540.8 [INFO] Resolved dependency: classmate-1.5.1.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.servlet-api-6.0.0.jar
+#14 540.8 [INFO] Resolved dependency: grpc-kotlin-stub-1.4.1.jar
+#14 540.8 [INFO] Resolved dependency: antlr-runtime-3.5.3.jar
+#14 540.8 [INFO] Resolved dependency: httpcore-nio-4.4.13.jar
+#14 540.8 [INFO] Resolved dependency: annotations-13.0.jar
+#14 540.8 [INFO] Resolved dependency: netty-transport-4.1.112.Final.jar
+#14 540.8 [INFO] Resolved dependency: awesome-bootstrap-checkbox-1.0.2.jar
+#14 540.8 [INFO] Resolved dependency: org.abego.treelayout.core-1.0.3.jar
+#14 540.8 [INFO] Resolved dependency: opentelemetry-api-1.29.0.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-search-backend-elasticsearch-7.2.1.Final.jar
+#14 540.8 [INFO] Resolved dependency: jetty-websocket-core-client-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: jboss-logging-3.4.3.Final.jar
+#14 540.8 [INFO] Resolved dependency: jetty-client-9.4.55.v20240627.jar
+#14 540.8 [INFO] Resolved dependency: neko-htmlunit-4.6.0.jar
+#14 540.8 [INFO] Resolved dependency: angus-mail-2.0.3.jar
+#14 540.8 [INFO] Resolved dependency: spring-boot-3.3.11.jar
+#14 540.8 [INFO] Resolved dependency: jena-iri3986-5.5.0.jar
+#14 540.8 [INFO] Resolved dependency: checksums-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.annotation-api-1.3.5.jar
+#14 540.8 [INFO] Resolved dependency: authenticated-socks-module-8.12.2.jar
+#14 540.8 [INFO] Resolved dependency: xmlresolver-5.2.1-data.jar
+#14 540.8 [INFO] Resolved dependency: swagger-annotations-jakarta-2.2.30.jar
+#14 540.8 [INFO] Resolved dependency: kotlinx-coroutines-core-1.7.3.jar
+#14 540.8 [INFO] Resolved dependency: flexmark-util-sequence-0.64.8.jar
+#14 540.8 [INFO] Resolved dependency: htmlunit-4.6.0.jar
+#14 540.8 [INFO] Resolved dependency: mockito-junit-jupiter-5.17.0.jar
+#14 540.8 [INFO] Resolved dependency: caffeine-2.6.2.jar
+#14 540.8 [INFO] Resolved dependency: metrics-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: hamcrest-core-1.3.jar
+#14 540.8 [INFO] Resolved dependency: byte-buddy-1.14.18.jar
+#14 540.8 [INFO] Resolved dependency: cqf-fhir-api-3.26.0.jar
+#14 540.8 [INFO] Resolved dependency: lucene-analysis-phonetic-9.11.1.jar
+#14 540.8 [INFO] Resolved dependency: hibernate-core-5.6.15.Final.jar
+#14 540.8 [INFO] Resolved dependency: spring-test-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.persistence-api-3.1.0.jar
+#14 540.8 [INFO] Resolved dependency: logkit-1.0.1.jar
+#14 540.8 [INFO] Resolved dependency: angus-mail-2.0.4.jar
+#14 540.8 [INFO] Resolved dependency: elasticsearch-rest-client-8.15.0.jar
+#14 540.8 [INFO] Resolved dependency: org.hl7.fhir.validation-6.5.27.jar
+#14 540.8 [INFO] Resolved dependency: jackson-datatype-jsr310-2.13.5.jar
+#14 540.8 [INFO] Resolved dependency: jetty-http-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-test-utilities-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: jsonassert-1.5.3.jar
+#14 540.8 [INFO] Resolved dependency: quick-3.29.0.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-jpaserver-ips-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: poi-5.2.5.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.validation-api-3.0.2.jar
+#14 540.8 [INFO] Resolved dependency: database-commons-1.20.3.jar
+#14 540.8 [INFO] Resolved dependency: logback-core-1.5.18.jar
+#14 540.8 [INFO] Resolved dependency: json-utils-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: netty-codec-http2-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: java-dataloader-4.0.0.jar
+#14 540.8 [INFO] Resolved dependency: font-awesome-5.15.4.jar
+#14 540.8 [INFO] Resolved dependency: hppc-0.10.0.jar
+#14 540.8 [INFO] Resolved dependency: slf4j-api-2.0.7.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.transaction-api-1.3.3.jar
+#14 540.8 [INFO] Resolved dependency: jetty-websocket-core-server-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.el-api-4.0.0.jar
+#14 540.8 [INFO] Resolved dependency: dec-0.1.2.jar
+#14 540.8 [INFO] Resolved dependency: simpleclient_tracer_otel-0.16.0.jar
+#14 540.8 [INFO] Resolved dependency: ph-schematron-xslt-7.1.2.jar
+#14 540.8 [INFO] Resolved dependency: annotations-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: netty-handler-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: spring-data-commons-3.3.5.jar
+#14 540.8 [INFO] Resolved dependency: netty-tcnative-boringssl-static-2.0.56.Final.jar
+#14 540.8 [INFO] Resolved dependency: spring-context-6.1.21.jar
+#14 540.8 [INFO] Resolved dependency: spring-data-jpa-3.3.5.jar
+#14 540.8 [INFO] Resolved dependency: awaitility-4.2.2.jar
+#14 540.8 [INFO] Resolved dependency: netty-codec-http-4.1.89.Final.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-validation-resources-r5-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: stax2-api-4.2.1.jar
+#14 540.8 [INFO] Resolved dependency: msal4j-persistence-extension-1.2.0.jar
+#14 540.8 [INFO] Resolved dependency: metrics-core-4.2.26.jar
+#14 540.8 [INFO] Resolved dependency: postgresql-42.7.7.jar
+#14 540.8 [INFO] Resolved dependency: select2-4.0.13.jar
+#14 540.8 [INFO] Resolved dependency: jaxb2-basics-runtime-3.0.0.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-registry-prometheus-simpleclient-1.13.3.jar
+#14 540.8 [INFO] Resolved dependency: commons-logging-1.3.4.jar
+#14 540.8 [INFO] Resolved dependency: grpc-api-1.58.0.jar
+#14 540.8 [INFO] Resolved dependency: swagger-core-jakarta-2.2.30.jar
+#14 540.8 [INFO] Resolved dependency: j2objc-annotations-2.8.jar
+#14 540.8 [INFO] Resolved dependency: http-client-spi-2.26.4.jar
+#14 540.8 [INFO] Resolved dependency: asm-commons-9.7.1.jar
+#14 540.8 [INFO] Resolved dependency: commons-collections4-4.4.jar
+#14 540.8 [INFO] Resolved dependency: apiguardian-api-1.1.2.jar
+#14 540.8 [INFO] Resolved dependency: micrometer-observation-1.13.13.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.json-2.0.1.jar
+#14 540.8 [INFO] Resolved dependency: byte-buddy-agent-1.15.11.jar
+#14 540.8 [INFO] Resolved dependency: spring-data-envers-3.3.5.jar
+#14 540.8 [INFO] Resolved dependency: LatencyUtils-2.0.3.jar
+#14 540.8 [INFO] Resolved dependency: jakarta.websocket-api-2.1.1.jar
+#14 540.8 [INFO] Resolved dependency: logback-core-1.5.16.jar
+#14 540.8 [INFO] Resolved dependency: jetty-ee10-plus-12.0.17.jar
+#14 540.8 [INFO] Resolved dependency: jackson-core-2.13.5.jar
+#14 540.8 [INFO] Resolved dependency: hapi-fhir-structures-hl7org-dstu2-8.4.0.jar
+#14 540.8 [INFO] Resolved dependency: android-json-0.0.20131108.vaadin1.jar
+#14 540.8 [INFO] ------------------------------------------------------------------------
+#14 540.8 [INFO] BUILD SUCCESS
+#14 540.8 [INFO] ------------------------------------------------------------------------
+#14 540.8 [INFO] Total time:  08:57 min
+#14 540.8 [INFO] Finished at: 2026-08-06T06:11:16Z
+#14 540.8 [INFO] ------------------------------------------------------------------------
+#14 DONE 541.3s
+
+#15 [build-hapi 7/8] COPY src/ /tmp/hapi-fhir-jpaserver-starter/src/
+#15 DONE 1.2s
+
+#16 [build-hapi 8/8] RUN mvn clean install -DskipTests -Djdk.lang.Process.launchMechanism=vfork
+#16 3.499 [INFO] Scanning for projects...
+#16 3.693 [WARNING] 
+#16 3.693 [WARNING] Some problems were encountered while building the effective model for ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2
+#16 3.696 [WARNING] 'version' contains an expression but should be a constant. @ ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:${project.parent.version}-${hapi.fhir.jpa.server.starter.revision}, /tmp/hapi-fhir-jpaserver-starter/pom.xml, line 27, column 14
+#16 3.697 [WARNING] 
+#16 3.697 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+#16 3.697 [WARNING] 
+#16 3.697 [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+#16 3.697 [WARNING] 
+#16 3.706 [WARNING] The project ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+#16 3.720 [INFO] 
+#16 3.720 [INFO] ------------< ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter >------------
+#16 3.720 [INFO] Building HAPI FHIR JPA Server - Starter Project 8.4.0-2
+#16 3.721 [INFO]   from pom.xml
+#16 3.723 [INFO] --------------------------------[ war ]---------------------------------
+#16 5.350 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.pom
+#16 11.14 Progress (1): 827 B
+Progress (1): 2.6 kB
+Progress (1): 5.9 kB
+Progress (1): 7.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.pom (7.5 kB at 1.3 kB/s)
+#16 11.16 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.8/jaxb-runtime-parent-2.3.8.pom
+#16 11.30 Progress (1): 929 B
+Progress (1): 1.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.3.8/jaxb-runtime-parent-2.3.8.pom (1.2 kB at 8.5 kB/s)
+#16 11.32 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.8/jaxb-parent-2.3.8.pom
+#16 11.47 Progress (1): 890 B
+Progress (1): 2.2 kB
+Progress (1): 3.8 kB
+Progress (1): 6.3 kB
+Progress (1): 9.2 kB
+Progress (1): 14 kB 
+Progress (1): 19 kB
+Progress (1): 23 kB
+Progress (1): 28 kB
+Progress (1): 31 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/2.3.8/jaxb-parent-2.3.8.pom (31 kB at 190 kB/s)
+#16 11.48 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.8/jaxb-bom-ext-2.3.8.pom
+#16 11.61 Progress (1): 859 B
+Progress (1): 2.5 kB
+Progress (1): 3.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/2.3.8/jaxb-bom-ext-2.3.8.pom (3.5 kB at 26 kB/s)
+#16 11.62 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.8/jaxb-bom-2.3.8.pom
+#16 11.72 Progress (1): 867 B
+Progress (1): 3.9 kB
+Progress (1): 9.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/2.3.8/jaxb-bom-2.3.8.pom (9.7 kB at 98 kB/s)
+#16 11.73 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.pom
+#16 11.82 Progress (1): 927 B
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.pom (1.8 kB at 19 kB/s)
+#16 11.83 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.8/jaxb-txw-parent-2.3.8.pom
+#16 11.94 Progress (1): 920 B
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/2.3.8/jaxb-txw-parent-2.3.8.pom (1.7 kB at 15 kB/s)
+#16 11.96 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.pom
+#16 12.07 Progress (1): 874 B
+Progress (1): 2.8 kB
+Progress (1): 5.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.pom (5.0 kB at 41 kB/s)
+#16 12.08 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.12/istack-commons-3.0.12.pom
+#16 12.17 Progress (1): 807 B
+Progress (1): 2.1 kB
+Progress (1): 3.9 kB
+Progress (1): 11 kB 
+Progress (1): 15 kB
+Progress (1): 18 kB
+Progress (1): 23 kB
+Progress (1): 24 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/3.0.12/istack-commons-3.0.12.pom (24 kB at 260 kB/s)
+#16 12.57 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.pom
+#16 12.66 Progress (1): 879 B
+Progress (1): 2.0 kB
+Progress (1): 3.8 kB
+Progress (1): 4.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.pom (4.6 kB at 48 kB/s)
+#16 14.14 Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.pom
+#16 14.26 Progress (1): 851 B
+Progress (1): 2.4 kB
+Progress (1): 2.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.pom (2.4 kB at 19 kB/s)
+#16 14.27 Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.0/xmlunit-parent-2.10.0.pom
+#16 14.37 Progress (1): 785 B
+Progress (1): 1.8 kB
+Progress (1): 3.6 kB
+Progress (1): 7.1 kB
+Progress (1): 8.9 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+Progress (1): 17 kB
+Progress (1): 21 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.0/xmlunit-parent-2.10.0.pom (21 kB at 212 kB/s)
+#16 14.62 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.jar
+#16 14.72 Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.1/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.2/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.3/1.0 MB
+Progress (1): 0.4/1.0 MB
+Progress (1): 0.4/1.0 MB
+Progress (1): 0.4/1.0 MB
+Progress (1): 0.4/1.0 MB
+Progress (1): 0.4/1.0 MB
+Progress (1): 0.4/1.0 MB
+Progress (1): 0.5/1.0 MB
+Progress (1): 0.5/1.0 MB
+Progress (1): 0.5/1.0 MB
+Progress (1): 0.5/1.0 MB
+Progress (1): 0.5/1.0 MB
+Progress (1): 0.5/1.0 MB
+Progress (1): 0.6/1.0 MB
+Progress (1): 0.6/1.0 MB
+Progress (1): 0.6/1.0 MB
+Progress (1): 0.6/1.0 MB
+Progress (1): 0.6/1.0 MB
+Progress (1): 0.6/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.7/1.0 MB
+Progress (1): 0.8/1.0 MB
+Progress (1): 0.8/1.0 MB
+Progress (1): 0.8/1.0 MB
+Progress (1): 0.8/1.0 MB
+Progress (1): 0.8/1.0 MB
+Progress (1): 0.8/1.0 MB
+Progress (1): 0.9/1.0 MB
+Progress (1): 0.9/1.0 MB
+Progress (1): 0.9/1.0 MB
+Progress (1): 0.9/1.0 MB
+Progress (1): 0.9/1.0 MB
+Progress (1): 0.9/1.0 MB
+Progress (1): 1.0/1.0 MB
+Progress (1): 1.0/1.0 MB
+Progress (1): 1.0/1.0 MB
+Progress (1): 1.0/1.0 MB
+Progress (1): 1.0 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.jar (1.0 MB at 2.0 MB/s)
+#16 15.14 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.jar
+#16 15.14 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar
+#16 15.15 Downloading from central: https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar
+#16 15.15 Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar
+#16 15.22 Progress (1): 7.7/30 kB
+Progress (1): 11/30 kB 
+Progress (1): 28/30 kB
+Progress (1): 30 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar (30 kB at 328 kB/s)
+#16 15.46 Progress (1): 0.9/181 kB
+Progress (1): 2.3/181 kB
+Progress (1): 3.6/181 kB
+Progress (1): 5.0/181 kB
+Progress (1): 6.4/181 kB
+Progress (1): 7.7/181 kB
+Progress (1): 9.1/181 kB
+Progress (1): 10/181 kB 
+Progress (1): 11/181 kB
+Progress (1): 13/181 kB
+Progress (1): 14/181 kB
+Progress (1): 15/181 kB
+Progress (1): 17/181 kB
+Progress (1): 18/181 kB
+Progress (1): 20/181 kB
+Progress (1): 21/181 kB
+Progress (1): 22/181 kB
+Progress (1): 24/181 kB
+Progress (1): 25/181 kB
+Progress (1): 26/181 kB
+Progress (2): 26/181 kB | 0.9/68 kB
+Progress (2): 28/181 kB | 0.9/68 kB
+Progress (2): 28/181 kB | 2.3/68 kB
+Progress (2): 28/181 kB | 3.6/68 kB
+Progress (2): 28/181 kB | 5.0/68 kB
+Progress (2): 28/181 kB | 6.4/68 kB
+Progress (2): 28/181 kB | 7.7/68 kB
+Progress (2): 28/181 kB | 9.1/68 kB
+Progress (2): 28/181 kB | 10/68 kB 
+Progress (3): 28/181 kB | 10/68 kB | 0.9/72 kB
+Progress (3): 28/181 kB | 10/68 kB | 2.3/72 kB
+Progress (3): 28/181 kB | 10/68 kB | 3.6/72 kB
+Progress (3): 28/181 kB | 12/68 kB | 3.6/72 kB
+Progress (3): 28/181 kB | 13/68 kB | 3.6/72 kB
+Progress (3): 29/181 kB | 13/68 kB | 3.6/72 kB
+Progress (3): 31/181 kB | 13/68 kB | 3.6/72 kB
+Progress (3): 31/181 kB | 15/68 kB | 3.6/72 kB
+Progress (3): 32/181 kB | 15/68 kB | 3.6/72 kB
+Progress (3): 32/181 kB | 15/68 kB | 5.0/72 kB
+Progress (3): 33/181 kB | 15/68 kB | 5.0/72 kB
+Progress (3): 33/181 kB | 15/68 kB | 6.4/72 kB
+Progress (3): 33/181 kB | 16/68 kB | 6.4/72 kB
+Progress (3): 35/181 kB | 16/68 kB | 6.4/72 kB
+Progress (3): 36/181 kB | 16/68 kB | 6.4/72 kB
+Progress (3): 36/181 kB | 16/68 kB | 7.7/72 kB
+Progress (3): 36/181 kB | 17/68 kB | 7.7/72 kB
+Progress (3): 37/181 kB | 17/68 kB | 7.7/72 kB
+Progress (3): 37/181 kB | 19/68 kB | 7.7/72 kB
+Progress (3): 37/181 kB | 19/68 kB | 9.1/72 kB
+Progress (3): 37/181 kB | 19/68 kB | 10/72 kB 
+Progress (3): 37/181 kB | 20/68 kB | 10/72 kB
+Progress (3): 37/181 kB | 20/68 kB | 12/72 kB
+Progress (3): 37/181 kB | 21/68 kB | 12/72 kB
+Progress (3): 37/181 kB | 21/68 kB | 13/72 kB
+Progress (3): 37/181 kB | 23/68 kB | 13/72 kB
+Progress (3): 37/181 kB | 23/68 kB | 15/72 kB
+Progress (3): 37/181 kB | 24/68 kB | 15/72 kB
+Progress (3): 37/181 kB | 25/68 kB | 15/72 kB
+Progress (3): 37/181 kB | 27/68 kB | 15/72 kB
+Progress (3): 37/181 kB | 28/68 kB | 15/72 kB
+Progress (3): 39/181 kB | 28/68 kB | 15/72 kB
+Progress (3): 40/181 kB | 28/68 kB | 15/72 kB
+Progress (3): 40/181 kB | 28/68 kB | 16/72 kB
+Progress (3): 40/181 kB | 28/68 kB | 17/72 kB
+Progress (3): 40/181 kB | 28/68 kB | 19/72 kB
+Progress (3): 40/181 kB | 30/68 kB | 19/72 kB
+Progress (3): 40/181 kB | 31/68 kB | 19/72 kB
+Progress (3): 40/181 kB | 31/68 kB | 20/72 kB
+Progress (3): 40/181 kB | 32/68 kB | 20/72 kB
+Progress (3): 40/181 kB | 34/68 kB | 20/72 kB
+Progress (3): 40/181 kB | 35/68 kB | 20/72 kB
+Progress (3): 40/181 kB | 35/68 kB | 21/72 kB
+Progress (3): 40/181 kB | 36/68 kB | 21/72 kB
+Progress (3): 40/181 kB | 38/68 kB | 21/72 kB
+Progress (3): 40/181 kB | 38/68 kB | 23/72 kB
+Progress (3): 40/181 kB | 39/68 kB | 23/72 kB
+Progress (3): 40/181 kB | 39/68 kB | 24/72 kB
+Progress (3): 40/181 kB | 41/68 kB | 24/72 kB
+Progress (3): 40/181 kB | 41/68 kB | 25/72 kB
+Progress (3): 41/181 kB | 41/68 kB | 25/72 kB
+Progress (3): 43/181 kB | 41/68 kB | 25/72 kB
+Progress (3): 44/181 kB | 41/68 kB | 25/72 kB
+Progress (3): 44/181 kB | 41/68 kB | 27/72 kB
+Progress (3): 46/181 kB | 41/68 kB | 27/72 kB
+Progress (3): 46/181 kB | 41/68 kB | 28/72 kB
+Progress (3): 47/181 kB | 41/68 kB | 28/72 kB
+Progress (3): 47/181 kB | 41/68 kB | 30/72 kB
+Progress (3): 48/181 kB | 41/68 kB | 30/72 kB
+Progress (3): 50/181 kB | 41/68 kB | 30/72 kB
+Progress (3): 51/181 kB | 41/68 kB | 30/72 kB
+Progress (3): 52/181 kB | 41/68 kB | 30/72 kB
+Progress (3): 52/181 kB | 42/68 kB | 30/72 kB
+Progress (3): 52/181 kB | 42/68 kB | 31/72 kB
+Progress (3): 52/181 kB | 43/68 kB | 31/72 kB
+Progress (3): 52/181 kB | 43/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 45/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 46/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 47/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 49/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 50/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 51/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 53/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 54/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 56/68 kB | 32/72 kB
+Progress (3): 52/181 kB | 56/68 kB | 34/72 kB
+Progress (3): 54/181 kB | 56/68 kB | 34/72 kB
+Progress (3): 54/181 kB | 60/68 kB | 34/72 kB
+Progress (3): 55/181 kB | 60/68 kB | 34/72 kB
+Progress (3): 55/181 kB | 60/68 kB | 35/72 kB
+Progress (3): 55/181 kB | 60/68 kB | 36/72 kB
+Progress (3): 59/181 kB | 60/68 kB | 36/72 kB
+Progress (3): 59/181 kB | 60/68 kB | 38/72 kB
+Progress (3): 59/181 kB | 60/68 kB | 39/72 kB
+Progress (3): 59/181 kB | 60/68 kB | 41/72 kB
+Progress (3): 59/181 kB | 64/68 kB | 41/72 kB
+Progress (3): 59/181 kB | 64/68 kB | 42/72 kB
+Progress (3): 59/181 kB | 64/68 kB | 43/72 kB
+Progress (3): 59/181 kB | 68/68 kB | 43/72 kB
+Progress (3): 59/181 kB | 68/68 kB | 45/72 kB
+Progress (3): 59/181 kB | 68 kB | 45/72 kB   
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar (68 kB at 117 kB/s)
+#16 15.73 Progress (2): 59/181 kB | 46/72 kB
+Progress (2): 59/181 kB | 47/72 kB
+Progress (2): 59/181 kB | 49/72 kB
+Progress (2): 59/181 kB | 50/72 kB
+Progress (2): 59/181 kB | 51/72 kB
+Progress (2): 59/181 kB | 53/72 kB
+Progress (2): 59/181 kB | 54/72 kB
+Progress (2): 59/181 kB | 56/72 kB
+Progress (2): 64/181 kB | 56/72 kB
+Progress (2): 64/181 kB | 60/72 kB
+Progress (2): 68/181 kB | 60/72 kB
+Progress (2): 72/181 kB | 60/72 kB
+Progress (2): 72/181 kB | 64/72 kB
+Progress (2): 76/181 kB | 64/72 kB
+Progress (2): 76/181 kB | 68/72 kB
+Progress (2): 81/181 kB | 68/72 kB
+Progress (2): 85/181 kB | 68/72 kB
+Progress (2): 89/181 kB | 68/72 kB
+Progress (2): 89/181 kB | 72 kB   
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.jar (72 kB at 114 kB/s)
+#16 15.78 Progress (1): 93/181 kB
+Progress (1): 97/181 kB
+Progress (1): 102/181 kB
+Progress (1): 106/181 kB
+Progress (1): 110/181 kB
+Progress (1): 114/181 kB
+Progress (1): 119/181 kB
+Progress (1): 123/181 kB
+Progress (1): 127/181 kB
+Progress (1): 131/181 kB
+Progress (1): 136/181 kB
+Progress (1): 140/181 kB
+Progress (1): 142/181 kB
+Progress (1): 147/181 kB
+Progress (1): 151/181 kB
+Progress (1): 155/181 kB
+Progress (1): 159/181 kB
+Progress (1): 164/181 kB
+Progress (1): 168/181 kB
+Progress (1): 172/181 kB
+Progress (1): 176/181 kB
+Progress (1): 181/181 kB
+Progress (1): 181 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar (181 kB at 260 kB/s)
+#16 15.86 [INFO] 
+#16 15.86 [INFO] --- clean:3.4.0:clean (default-clean) @ hapi-fhir-jpaserver-starter ---
+#16 15.99 [INFO] 
+#16 15.99 [INFO] --- enforcer:3.5.0:enforce (enforce-maven) @ hapi-fhir-jpaserver-starter ---
+#16 16.31 [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+#16 16.33 [INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+#16 16.33 [INFO] 
+#16 16.33 [INFO] --- resources:3.3.0:resources (default-resources) @ hapi-fhir-jpaserver-starter ---
+#16 16.46 [INFO] Copying 4 resources
+#16 16.47 [INFO] 
+#16 16.47 [INFO] --- compiler:3.13.0:compile (default-compile) @ hapi-fhir-jpaserver-starter ---
+#16 16.69 [INFO] Recompiling the module because of changed source code.
+#16 16.71 [INFO] Compiling 63 source files with javac [forked debug release 17] to target/classes
+#16 24.24 [INFO] 
+#16 24.24 [INFO] --- resources:3.3.0:testResources (default-testResources) @ hapi-fhir-jpaserver-starter ---
+#16 24.31 [INFO] Copying 18 resources
+#16 24.48 [INFO] 
+#16 24.48 [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ hapi-fhir-jpaserver-starter ---
+#16 24.53 [INFO] Recompiling the module because of changed dependency.
+#16 24.53 [INFO] Compiling 22 source files with javac [forked debug release 17] to target/test-classes
+#16 31.59 [INFO] 
+#16 31.59 [INFO] --- surefire:3.4.0:test (default-test) @ hapi-fhir-jpaserver-starter ---
+#16 31.78 [INFO] Tests are skipped.
+#16 31.78 [INFO] 
+#16 31.78 [INFO] --- war:3.4.0:war (default-war) @ hapi-fhir-jpaserver-starter ---
+#16 32.32 [INFO] Packaging webapp
+#16 32.32 [INFO] Assembling webapp [hapi-fhir-jpaserver-starter] in [/tmp/hapi-fhir-jpaserver-starter/target/ROOT]
+#16 32.34 [INFO] Processing war project
+#16 32.34 [INFO] Copying webapp resources [/tmp/hapi-fhir-jpaserver-starter/src/main/webapp]
+#16 35.84 [INFO] Processing overlay [ id ca.uhn.hapi.fhir:hapi-fhir-testpage-overlay]
+#16 36.28 [INFO] Building war: /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war
+#16 46.21 [INFO] Packaging classes
+#16 46.23 [INFO] Building jar: /tmp/hapi-fhir-jpaserver-starter/target/ROOT-classes.jar
+#16 46.31 [INFO] 
+#16 46.31 [INFO] --- spring-boot:3.3.11:repackage (default) @ hapi-fhir-jpaserver-starter ---
+#16 53.49 [INFO] Replacing main artifact /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war with repackaged archive, adding nested dependencies in BOOT-INF/.
+#16 53.49 [INFO] The original artifact has been renamed to /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war.original
+#16 53.49 [INFO] 
+#16 53.49 [INFO] --- failsafe:3.4.0:integration-test (default) @ hapi-fhir-jpaserver-starter ---
+#16 53.60 [INFO] Tests are skipped.
+#16 53.60 [INFO] 
+#16 53.60 [INFO] --- failsafe:3.4.0:verify (default) @ hapi-fhir-jpaserver-starter ---
+#16 53.60 [INFO] Tests are skipped.
+#16 53.60 [INFO] 
+#16 53.60 [INFO] --- duplicate-finder:2.0.1:check (default) @ hapi-fhir-jpaserver-starter ---
+#16 53.79 [INFO] Checking compile classpath
+#16 60.92 [INFO] Checking runtime classpath
+#16 62.14 [WARNING] Found duplicate and different classes in [jakarta.el:jakarta.el-api:4.0.0, org.apache.tomcat.embed:tomcat-embed-el:10.1.40]:
+#16 62.14 [WARNING]   jakarta.el.ArrayELResolver
+#16 62.14 [WARNING]   jakarta.el.BeanELResolver
+#16 62.14 [WARNING]   jakarta.el.BeanNameELResolver
+#16 62.14 [WARNING]   jakarta.el.BeanNameResolver
+#16 62.14 [WARNING]   jakarta.el.CompositeELResolver
+#16 62.14 [WARNING]   jakarta.el.ELClass
+#16 62.14 [WARNING]   jakarta.el.ELContext
+#16 62.14 [WARNING]   jakarta.el.ELContextEvent
+#16 62.14 [WARNING]   jakarta.el.ELContextListener
+#16 62.14 [WARNING]   jakarta.el.ELException
+#16 62.14 [WARNING]   jakarta.el.ELManager
+#16 62.14 [WARNING]   jakarta.el.ELProcessor
+#16 62.14 [WARNING]   jakarta.el.ELResolver
+#16 62.14 [WARNING]   jakarta.el.EvaluationListener
+#16 62.14 [WARNING]   jakarta.el.Expression
+#16 62.14 [WARNING]   jakarta.el.ExpressionFactory
+#16 62.14 [WARNING]   jakarta.el.FunctionMapper
+#16 62.14 [WARNING]   jakarta.el.ImportHandler
+#16 62.14 [WARNING]   jakarta.el.LambdaExpression
+#16 62.14 [WARNING]   jakarta.el.ListELResolver
+#16 62.14 [WARNING]   jakarta.el.MapELResolver
+#16 62.14 [WARNING]   jakarta.el.MethodExpression
+#16 62.15 [WARNING]   jakarta.el.MethodInfo
+#16 62.15 [WARNING]   jakarta.el.MethodNotFoundException
+#16 62.15 [WARNING]   jakarta.el.PropertyNotFoundException
+#16 62.15 [WARNING]   jakarta.el.PropertyNotWritableException
+#16 62.15 [WARNING]   jakarta.el.ResourceBundleELResolver
+#16 62.15 [WARNING]   jakarta.el.StandardELContext
+#16 62.15 [WARNING]   jakarta.el.StaticFieldELResolver
+#16 62.15 [WARNING]   jakarta.el.TypeConverter
+#16 62.15 [WARNING]   jakarta.el.ValueExpression
+#16 62.15 [WARNING]   jakarta.el.ValueReference
+#16 62.15 [WARNING]   jakarta.el.VariableMapper
+#16 62.15 [WARNING] Found duplicate and different classes in [jakarta.servlet:jakarta.servlet-api:6.0.0, org.apache.tomcat.embed:tomcat-embed-core:10.1.40]:
+#16 62.15 [WARNING]   jakarta.servlet.AsyncContext
+#16 62.15 [WARNING]   jakarta.servlet.AsyncEvent
+#16 62.15 [WARNING]   jakarta.servlet.AsyncListener
+#16 62.15 [WARNING]   jakarta.servlet.DispatcherType
+#16 62.15 [WARNING]   jakarta.servlet.Filter
+#16 62.15 [WARNING]   jakarta.servlet.FilterChain
+#16 62.15 [WARNING]   jakarta.servlet.FilterConfig
+#16 62.15 [WARNING]   jakarta.servlet.FilterRegistration
+#16 62.15 [WARNING]   jakarta.servlet.GenericFilter
+#16 62.15 [WARNING]   jakarta.servlet.GenericServlet
+#16 62.15 [WARNING]   jakarta.servlet.HttpConstraintElement
+#16 62.15 [WARNING]   jakarta.servlet.HttpMethodConstraintElement
+#16 62.15 [WARNING]   jakarta.servlet.MultipartConfigElement
+#16 62.15 [WARNING]   jakarta.servlet.ReadListener
+#16 62.15 [WARNING]   jakarta.servlet.Registration
+#16 62.15 [WARNING]   jakarta.servlet.RequestDispatcher
+#16 62.15 [WARNING]   jakarta.servlet.Servlet
+#16 62.15 [WARNING]   jakarta.servlet.ServletConfig
+#16 62.15 [WARNING]   jakarta.servlet.ServletConnection
+#16 62.15 [WARNING]   jakarta.servlet.ServletContainerInitializer
+#16 62.15 [WARNING]   jakarta.servlet.ServletContext
+#16 62.15 [WARNING]   jakarta.servlet.ServletContextAttributeEvent
+#16 62.15 [WARNING]   jakarta.servlet.ServletContextAttributeListener
+#16 62.15 [WARNING]   jakarta.servlet.ServletContextEvent
+#16 62.15 [WARNING]   jakarta.servlet.ServletContextListener
+#16 62.15 [WARNING]   jakarta.servlet.ServletException
+#16 62.15 [WARNING]   jakarta.servlet.ServletInputStream
+#16 62.15 [WARNING]   jakarta.servlet.ServletOutputStream
+#16 62.15 [WARNING]   jakarta.servlet.ServletRegistration
+#16 62.15 [WARNING]   jakarta.servlet.ServletRequest
+#16 62.15 [WARNING]   jakarta.servlet.ServletRequestAttributeEvent
+#16 62.15 [WARNING]   jakarta.servlet.ServletRequestAttributeListener
+#16 62.15 [WARNING]   jakarta.servlet.ServletRequestEvent
+#16 62.15 [WARNING]   jakarta.servlet.ServletRequestListener
+#16 62.15 [WARNING]   jakarta.servlet.ServletRequestWrapper
+#16 62.15 [WARNING]   jakarta.servlet.ServletResponse
+#16 62.15 [WARNING]   jakarta.servlet.ServletResponseWrapper
+#16 62.15 [WARNING]   jakarta.servlet.ServletSecurityElement
+#16 62.15 [WARNING]   jakarta.servlet.SessionCookieConfig
+#16 62.15 [WARNING]   jakarta.servlet.SessionTrackingMode
+#16 62.15 [WARNING]   jakarta.servlet.UnavailableException
+#16 62.15 [WARNING]   jakarta.servlet.WriteListener
+#16 62.15 [WARNING]   jakarta.servlet.annotation.HandlesTypes
+#16 62.15 [WARNING]   jakarta.servlet.annotation.HttpConstraint
+#16 62.15 [WARNING]   jakarta.servlet.annotation.HttpMethodConstraint
+#16 62.15 [WARNING]   jakarta.servlet.annotation.MultipartConfig
+#16 62.15 [WARNING]   jakarta.servlet.annotation.ServletSecurity
+#16 62.15 [WARNING]   jakarta.servlet.annotation.WebFilter
+#16 62.15 [WARNING]   jakarta.servlet.annotation.WebInitParam
+#16 62.15 [WARNING]   jakarta.servlet.annotation.WebListener
+#16 62.15 [WARNING]   jakarta.servlet.annotation.WebServlet
+#16 62.15 [WARNING]   jakarta.servlet.descriptor.JspConfigDescriptor
+#16 62.15 [WARNING]   jakarta.servlet.descriptor.JspPropertyGroupDescriptor
+#16 62.15 [WARNING]   jakarta.servlet.descriptor.TaglibDescriptor
+#16 62.15 [WARNING]   jakarta.servlet.http.Cookie
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpFilter
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpServlet
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpServletMapping
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpServletRequest
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpServletRequestWrapper
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpServletResponse
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpServletResponseWrapper
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSession
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionActivationListener
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionAttributeListener
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionBindingEvent
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionBindingListener
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionEvent
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionIdListener
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpSessionListener
+#16 62.15 [WARNING]   jakarta.servlet.http.HttpUpgradeHandler
+#16 62.15 [WARNING]   jakarta.servlet.http.MappingMatch
+#16 62.15 [WARNING]   jakarta.servlet.http.Part
+#16 62.15 [WARNING]   jakarta.servlet.http.PushBuilder
+#16 62.15 [WARNING]   jakarta.servlet.http.WebConnection
+#16 62.15 [WARNING] Found duplicate and different classes in [commons-logging:commons-logging:1.2, org.slf4j:jcl-over-slf4j:2.0.16]:
+#16 62.15 [WARNING]   org.apache.commons.logging.Log
+#16 62.15 [WARNING]   org.apache.commons.logging.LogConfigurationException
+#16 62.15 [WARNING]   org.apache.commons.logging.LogFactory
+#16 62.15 [WARNING]   org.apache.commons.logging.impl.NoOpLog
+#16 62.15 [WARNING]   org.apache.commons.logging.impl.SimpleLog
+#16 62.16 [WARNING] Found duplicate and different resources in [jakarta.servlet:jakarta.servlet-api:6.0.0, org.apache.tomcat.embed:tomcat-embed-core:10.1.40]:
+#16 62.16 [WARNING]   jakarta/servlet/LocalStrings.properties
+#16 62.16 [WARNING]   jakarta/servlet/http/LocalStrings.properties
+#16 62.16 [WARNING]   jakarta/servlet/resources/j2ee_1_4.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/j2ee_web_services_1_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/j2ee_web_services_client_1_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jakartaee_10.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jakartaee_9.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jakartaee_web_services_2_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jakartaee_web_services_client_2_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_5.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_6.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_7.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_8.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_web_services_1_2.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_web_services_1_3.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_web_services_1_4.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_web_services_client_1_2.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_web_services_client_1_3.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/javaee_web_services_client_1_4.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jsp_2_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jsp_2_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jsp_2_2.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jsp_2_3.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jsp_3_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/jsp_3_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_2_2.dtd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_2_3.dtd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_2_4.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_2_5.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_3_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_3_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_4_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_5_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-app_6_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-common_3_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-common_3_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-common_4_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-common_5_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-common_6_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-fragment_3_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-fragment_3_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-fragment_4_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-fragment_5_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-fragment_6_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-jsptaglibrary_1_1.dtd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-jsptaglibrary_1_2.dtd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-jsptaglibrary_2_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-jsptaglibrary_2_1.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-jsptaglibrary_3_0.xsd
+#16 62.16 [WARNING]   jakarta/servlet/resources/web-jsptaglibrary_3_1.xsd
+#16 62.16 [WARNING] Found duplicate and different classes in [jakarta.el:jakarta.el-api:4.0.0, org.apache.tomcat.embed:tomcat-embed-el:10.1.40]:
+#16 62.16 [WARNING]   jakarta.el.ArrayELResolver
+#16 62.16 [WARNING]   jakarta.el.BeanELResolver
+#16 62.16 [WARNING]   jakarta.el.BeanNameELResolver
+#16 62.16 [WARNING]   jakarta.el.BeanNameResolver
+#16 62.16 [WARNING]   jakarta.el.CompositeELResolver
+#16 62.16 [WARNING]   jakarta.el.ELClass
+#16 62.16 [WARNING]   jakarta.el.ELContext
+#16 62.16 [WARNING]   jakarta.el.ELContextEvent
+#16 62.16 [WARNING]   jakarta.el.ELContextListener
+#16 62.16 [WARNING]   jakarta.el.ELException
+#16 62.16 [WARNING]   jakarta.el.ELManager
+#16 62.16 [WARNING]   jakarta.el.ELProcessor
+#16 62.16 [WARNING]   jakarta.el.ELResolver
+#16 62.16 [WARNING]   jakarta.el.EvaluationListener
+#16 62.16 [WARNING]   jakarta.el.Expression
+#16 62.16 [WARNING]   jakarta.el.ExpressionFactory
+#16 62.16 [WARNING]   jakarta.el.FunctionMapper
+#16 62.16 [WARNING]   jakarta.el.ImportHandler
+#16 62.16 [WARNING]   jakarta.el.LambdaExpression
+#16 62.16 [WARNING]   jakarta.el.ListELResolver
+#16 62.16 [WARNING]   jakarta.el.MapELResolver
+#16 62.16 [WARNING]   jakarta.el.MethodExpression
+#16 62.16 [WARNING]   jakarta.el.MethodInfo
+#16 62.16 [WARNING]   jakarta.el.MethodNotFoundException
+#16 62.16 [WARNING]   jakarta.el.PropertyNotFoundException
+#16 62.16 [WARNING]   jakarta.el.PropertyNotWritableException
+#16 62.16 [WARNING]   jakarta.el.ResourceBundleELResolver
+#16 62.16 [WARNING]   jakarta.el.StandardELContext
+#16 62.16 [WARNING]   jakarta.el.StaticFieldELResolver
+#16 62.16 [WARNING]   jakarta.el.TypeConverter
+#16 62.16 [WARNING]   jakarta.el.ValueExpression
+#16 62.16 [WARNING]   jakarta.el.ValueReference
+#16 62.16 [WARNING]   jakarta.el.VariableMapper
+#16 62.16 [WARNING] Found duplicate and different classes in [org.eclipse.angus:angus-mail:2.0.4, org.eclipse.angus:jakarta.mail:2.0.3]:
+#16 62.16 [WARNING]   org.eclipse.angus.mail.smtp.SMTPTransport
+#16 62.16 [INFO] 
+#16 62.16 [INFO] --- install:3.1.3:install (default-install) @ hapi-fhir-jpaserver-starter ---
+#16 62.21 [INFO] Installing /tmp/hapi-fhir-jpaserver-starter/pom.xml to /root/.m2/repository/ca/uhn/hapi/fhir/hapi-fhir-jpaserver-starter/8.4.0-2/hapi-fhir-jpaserver-starter-8.4.0-2.pom
+#16 62.22 [INFO] Installing /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war to /root/.m2/repository/ca/uhn/hapi/fhir/hapi-fhir-jpaserver-starter/8.4.0-2/hapi-fhir-jpaserver-starter-8.4.0-2.war
+#16 64.16 [INFO] Installing /tmp/hapi-fhir-jpaserver-starter/target/ROOT-classes.jar to /root/.m2/repository/ca/uhn/hapi/fhir/hapi-fhir-jpaserver-starter/8.4.0-2/hapi-fhir-jpaserver-starter-8.4.0-2-classes.jar
+#16 64.20 [INFO] ------------------------------------------------------------------------
+#16 64.20 [INFO] BUILD SUCCESS
+#16 64.20 [INFO] ------------------------------------------------------------------------
+#16 64.20 [INFO] Total time:  01:00 min
+#16 64.20 [INFO] Finished at: 2026-08-06T06:12:22Z
+#16 64.20 [INFO] ------------------------------------------------------------------------
+#16 DONE 64.5s
+
+#17 [build-distroless 1/2] RUN mvn package -DskipTests spring-boot:repackage -Pboot
+#17 2.289 [INFO] Scanning for projects...
+#17 2.494 [WARNING] 
+#17 2.494 [WARNING] Some problems were encountered while building the effective model for ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2
+#17 2.494 [WARNING] 'version' contains an expression but should be a constant. @ ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:${project.parent.version}-${hapi.fhir.jpa.server.starter.revision}, /tmp/hapi-fhir-jpaserver-starter/pom.xml, line 27, column 14
+#17 2.494 [WARNING] 
+#17 2.495 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+#17 2.495 [WARNING] 
+#17 2.495 [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+#17 2.495 [WARNING] 
+#17 2.510 [WARNING] The project ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:8.4.0-2 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+#17 2.729 [INFO] 
+#17 2.729 [INFO] ------------< ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter >------------
+#17 2.729 [INFO] Building HAPI FHIR JPA Server - Starter Project 8.4.0-2
+#17 2.731 [INFO]   from pom.xml
+#17 2.733 [INFO] --------------------------------[ war ]---------------------------------
+#17 5.553 [INFO] 
+#17 5.553 [INFO] --- enforcer:3.5.0:enforce (enforce-maven) @ hapi-fhir-jpaserver-starter ---
+#17 5.762 [INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+#17 5.783 [INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+#17 5.784 [INFO] 
+#17 5.784 [INFO] --- resources:3.3.0:resources (default-resources) @ hapi-fhir-jpaserver-starter ---
+#17 6.013 [INFO] Copying 4 resources
+#17 6.039 [INFO] 
+#17 6.039 [INFO] --- compiler:3.13.0:compile (default-compile) @ hapi-fhir-jpaserver-starter ---
+#17 6.226 [INFO] Nothing to compile - all classes are up to date.
+#17 6.226 [INFO] 
+#17 6.227 [INFO] --- resources:3.3.0:testResources (default-testResources) @ hapi-fhir-jpaserver-starter ---
+#17 6.237 [INFO] Copying 18 resources
+#17 6.722 [INFO] 
+#17 6.722 [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ hapi-fhir-jpaserver-starter ---
+#17 6.764 [INFO] Nothing to compile - all classes are up to date.
+#17 6.764 [INFO] 
+#17 6.765 [INFO] --- surefire:3.4.0:test (default-test) @ hapi-fhir-jpaserver-starter ---
+#17 6.896 [INFO] Tests are skipped.
+#17 6.896 [INFO] 
+#17 6.896 [INFO] --- war:3.4.0:war (default-war) @ hapi-fhir-jpaserver-starter ---
+#17 7.232 [INFO] Packaging webapp
+#17 7.237 [INFO] Assembling webapp [hapi-fhir-jpaserver-starter] in [/tmp/hapi-fhir-jpaserver-starter/target/ROOT]
+#17 7.305 [INFO] Processing war project
+#17 7.306 [INFO] Copying webapp resources [/tmp/hapi-fhir-jpaserver-starter/src/main/webapp]
+#17 7.417 [INFO] Processing overlay [ id ca.uhn.hapi.fhir:hapi-fhir-testpage-overlay]
+#17 7.504 [INFO] Building war: /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war
+#17 16.58 [INFO] Packaging classes
+#17 16.59 [INFO] Building jar: /tmp/hapi-fhir-jpaserver-starter/target/ROOT-classes.jar
+#17 16.65 [INFO] 
+#17 16.65 [INFO] --- spring-boot:3.3.11:repackage (default) @ hapi-fhir-jpaserver-starter ---
+#17 23.13 [INFO] Replacing main artifact /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war with repackaged archive, adding nested dependencies in BOOT-INF/.
+#17 23.13 [INFO] The original artifact has been renamed to /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war.original
+#17 23.13 [INFO] 
+#17 23.14 [INFO] --- spring-boot:3.3.11:repackage (default-cli) @ hapi-fhir-jpaserver-starter ---
+#17 23.82 [INFO] Replacing main artifact /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war with repackaged archive, adding nested dependencies in BOOT-INF/.
+#17 23.82 [INFO] The original artifact has been renamed to /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war.original
+#17 23.82 [INFO] ------------------------------------------------------------------------
+#17 23.82 [INFO] BUILD SUCCESS
+#17 23.82 [INFO] ------------------------------------------------------------------------
+#17 23.82 [INFO] Total time:  21.577 s
+#17 23.82 [INFO] Finished at: 2026-08-06T06:12:46Z
+#17 23.83 [INFO] ------------------------------------------------------------------------
+#17 DONE 24.2s
+
+#18 [build-distroless 2/2] RUN mkdir /app && cp /tmp/hapi-fhir-jpaserver-starter/target/ROOT.war /app/main.war
+#18 DONE 1.7s
+
+#19 [default 2/4] WORKDIR /app
+#19 CACHED
+
+#20 [default 3/4] COPY --chown=nonroot:nonroot --from=build-distroless /app /app
+#20 DONE 3.9s
+
+#21 [default 4/4] COPY --chown=nonroot:nonroot --from=build-hapi /tmp/hapi-fhir-jpaserver-starter/opentelemetry-javaagent.jar /app
+#21 DONE 0.5s
+
+#22 exporting to image
+#22 exporting layers
+#22 exporting layers 20.4s done
+#22 exporting manifest sha256:27a3c24291b097393288e8d9e5a9755ac61271baada084bf87993a83d366e775 0.0s done
+#22 exporting config sha256:d70d7d06c8576c7a32fc8e166b86a201d7d89aecee4d8cb43c5719305ebf11c0 0.0s done
+#22 exporting attestation manifest sha256:1698ead710e51762d18b2220652b4e53bf12ee3577c1ce14352a5711b6bd35f4 0.0s done
+#22 exporting manifest list sha256:4b814860a4a04be04f8be44d395e807651ccb60b4e3d515e121c3d42df716230 0.0s done
+#22 naming to docker.io/library/hapi-fhir-jpaserver-starter-hapi-fhir-jpaserver-start:latest done
+#22 unpacking to docker.io/library/hapi-fhir-jpaserver-starter-hapi-fhir-jpaserver-start:latest
+#22 unpacking to docker.io/library/hapi-fhir-jpaserver-starter-hapi-fhir-jpaserver-start:latest 6.5s done
+#22 DONE 27.2s
+
+#23 resolving provenance for metadata file
+#23 DONE 0.1s
+ hapi-fhir-jpaserver-starter-hapi-fhir-jpaserver-start  Built
+ Network hapi-fhir-jpaserver-starter_default  Creating
+ Network hapi-fhir-jpaserver-starter_default  Created
+ Volume "hapi-fhir-jpaserver-starter_hapi-fhir-postgres"  Creating
+ Volume "hapi-fhir-jpaserver-starter_hapi-fhir-postgres"  Created
+ Container hapi-fhir-postgres  Creating
+ Container hapi-fhir-jpaserver-start  Creating
+ Container hapi-fhir-jpaserver-start  Created
+ Container hapi-fhir-postgres  Created
+ Container hapi-fhir-postgres  Starting
+ Container hapi-fhir-jpaserver-start  Starting
+ Container hapi-fhir-postgres  Started
+ Container hapi-fhir-jpaserver-start  Started
